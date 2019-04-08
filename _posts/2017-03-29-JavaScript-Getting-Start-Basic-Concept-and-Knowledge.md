@@ -7,7 +7,7 @@ description: "JavaScript 基本知识点"
 image:
   feature: windows.jpg
   credit: Azeril
-  creditlink: http://azeril.com
+  creditlink: azeril.com
 ---
 
 

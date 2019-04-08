@@ -1,5 +1,5 @@
 /*!
- * Clean Blog v1.0.0 (http://startbootstrap.com)
+ * Clean Blog v1.0.0 (https://startbootstrap.com)
  * Copyright 2015 Start Bootstrap
  * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
  */
@@ -87,9 +87,9 @@ $('#name').focus(function() {
 // *
 // * v1.3.6
 // *
-// * License: MIT <http://opensource.org/licenses/mit-license.php> - see LICENSE file
+// * License: MIT <https://opensource.org/licenses/mit-license.php> - see LICENSE file
 // *
-// * http://ReactiveRaven.github.com/jqBootstrapValidation/
+// * https://ReactiveRaven.github.com/jqBootstrapValidation/
 
 
 (function($) {
@@ -965,8 +965,8 @@ $('#name').focus(function() {
     /**
      * Thanks to Jason Bunting via StackOverflow.com
      *
-     * http://stackoverflow.com/questions/359788/how-to-execute-a-javascript-function-when-i-have-its-name-as-a-string#answer-359910
-     * Short link: http://tinyurl.com/executeFunctionByName
+     * https://stackoverflow.com/questions/359788/how-to-execute-a-javascript-function-when-i-have-its-name-as-a-string#answer-359910
+     * Short link: https://tinyurl.com/executeFunctionByName
      **/
     function executeFunctionByName(functionName, context /*, args*/ ) {
         var args = Array.prototype.slice.call(arguments).splice(2);

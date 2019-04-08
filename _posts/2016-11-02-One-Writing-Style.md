@@ -7,7 +7,7 @@ description: 极简写作的几大规则
 image:
   feature: windows.jpg
   credit: Azeril
-  creditlink: http://azeril.com
+  creditlink: azeril.com
 ---
 
 

@@ -7,7 +7,7 @@ description: "对于 2016 年北京电影节的一次回望"
 image:
   feature: windows.jpg
   credit: Azeril
-  creditlink: http://azeril.com
+  creditlink: azeril.com
 ---
 
 新一年的北京国际电影节又进入倒计时了。

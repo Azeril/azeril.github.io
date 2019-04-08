@@ -49,7 +49,7 @@ gem 'pygments.rb'
 
 再次运行 ```$ jekyll serve``` 遇到一个新的问题：
 
-> Since v3.0, permalinks for pages in subfolders must be relative to the site source directory, not the parent directory. Check http://jekyllrb.com/docs/upgrading/ for more info.
+> Since v3.0, permalinks for pages in subfolders must be relative to the site source directory, not the parent directory. Check https://jekyllrb.com/docs/upgrading/ for more info.
 
 解决方案：
 
@@ -61,6 +61,6 @@ gem 'pygments.rb'
 
 
 ## 参考资料
-* [Upgrading from 2.x to 3.x](http://jekyllrb.com/docs/upgrading/2-to-3/)
+* [Upgrading from 2.x to 3.x](https://jekyllrb.com/docs/upgrading/2-to-3/)
 * [Compability with Jekyll 3? · Issue #99 · poole/poole](https://github.com/poole/poole/issues/99)
-* [Jekyll serve didnt work - Stack Overflow](http://stackoverflow.com/questions/33439019/jekyll-serve-didnt-work)
+* [Jekyll serve didnt work - Stack Overflow](https://stackoverflow.com/questions/33439019/jekyll-serve-didnt-work)

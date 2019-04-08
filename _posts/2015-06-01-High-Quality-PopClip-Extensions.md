@@ -6,7 +6,7 @@ tags: [Apps, Mac, ]
 description: PopClip is a easy but great app for mac.
 ---
 
-[PopClip](http://pilotmoon.com/popclip/) when select text with your mouse or figers on your Mac. Instantly copy & paste, and access actions like search, spelling, dictionary and so on.
+[PopClip](https://pilotmoon.com/popclip/) when select text with your mouse or figers on your Mac. Instantly copy & paste, and access actions like search, spelling, dictionary and so on.
 
 ### Most used
 
@@ -19,7 +19,7 @@ description: PopClip is a easy but great app for mac.
 
 * Instapaper - Save the URL to read later with Instapaper.
 * Pocket - Save the URL to view later with Pocket.
-* [Shorten Link](http://hzlzh.io/popclip-extensions/) - Turn a long URL into a much shorter one. Services available: is.gd, v.gd. Credit: hzlzh.
+* [Shorten Link](https://hzlzh.io/popclip-extensions/) - Turn a long URL into a much shorter one. Services available: is.gd, v.gd. Credit: hzlzh.
 * URL Encode	- Percent-encode or decode the selected text.
 
 ### Work with Keywords
@@ -44,12 +44,12 @@ description: PopClip is a easy but great app for mac.
 * Simplenote	- Send the text to Simplenote. 
 * Word Count	- Display the number of words in the selected text.
 
-More extensions to export and download:[Chick here](http://pilotmoon.com/popclip/extensions/). 
+More extensions to export and download:[Chick here](https://pilotmoon.com/popclip/extensions/). 
 
 ### Download
 
 Download those extensions in the list: 
 
 * From box.com [Extension Package](https://app.box.com/s/dwx3vl5m79n6txwtd911bk2ue6vud1du)
-* From SpeedShare [Extension Package](http://speedy.sh/4FDJm/PopClip-Extensions.zip) 
+* From SpeedShare [Extension Package](https://speedy.sh/4FDJm/PopClip-Extensions.zip) 
 

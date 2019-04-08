@@ -7,7 +7,7 @@ description: "解决使用 Google 学术搜索被 Google 屏蔽/封锁的问题"
 image:
   feature: windows.jpg
   credit: Azeril
-  creditlink: http://azeril.com
+  creditlink: azeril.com
 ---
 
 最近遇到好几回同事 Google 搜索服务能正常使用，而 Google Scholar 无法访问的事。先前用 Google 检索了不少的网络记录，费了一阵折腾，换 SS 服务器、修改 Hosts（包括添加 Google Scholar 的 IPV6 地址）、清空 DNS 缓存等，几番尝试都没搞定，今天也是一样，因为我都忘了上次最终怎么搞定的了...当然，最后是回溯了一下多年来与糟糕的网络状况相伴，以及在此间的种种解决方法，最终还是搞定了。
