@@ -8,7 +8,9 @@ description: 对搜索引擎的正确使用，对我们能否在海量信息中�
 
 
 能否有效地利用搜索引擎，对我们能否在海量信息中迅速挖掘出所需有着决定性影响。
-![Google](http://dreamofbook.qiniudn.com/Google.png)
+
+![Google](/img/swirl/WebsiteGoogleMainPage.png)
+
 本文的源起是今天读完的一本谷歌前高管写的书**《 Google 时代的工作方法》**，其中一章提到对于关于谷歌搜索的高效运用，加之先前看过为数不少的关于搜索引擎运用的文章，结合自己平时的搜索习惯，出于更好地理解和运用的目的，方有此文。
 
 本文将着眼于介绍搜索运用的实用建议及窍门，以便能在理解搜索模式的基础上，更好地在搜索中过滤掉次要信息，获取相关度最高的搜索结果，从而节省时间及精力，更加重要的是，让搜索引擎更好地理解我们的需要，从而能切切实实获取我们想要的信息。
@@ -24,7 +26,7 @@ description: 对搜索引擎的正确使用，对我们能否在海量信息中�
  
 4. 模糊搜索。「*」可以用来表示任意字符，但用时必须用""引用处理。比如：
 >"生命如*"  
-![words](http://dreamofbook.qiniudn.com/Googlesearchwords.png)  
+![words](/img/swirl/GoogleSearchWords.png)  
 5. 使用形容词，缩小结果范围。一个显著的运用是在淘宝搜索商品时，比如搜索衬衫时添加具体颜色。有多个条件时，比如喜欢两种颜色，蓝、白，可以这样输入：蓝 OR 白。OR对于两个或多个网站的搜索也有效，比如 site:douban.com OR site:zhihu.com。另外一个符号波浪号「~」的作用，当键入：hotel ~affordable 时，谷歌网页中会包含 affordable 这个词以及这个词的类似同义词 cheap、budget 等，注意波浪号之后是紧跟单词的。  
 6. 用“..”限定数值范围。如以下搜索模式就能够很强悍地对海量数据进行筛选，从而精确地获得想要的数据:
 >"10000.. 人看过" inurl:subject site:douban.com/
@@ -38,7 +40,8 @@ description: 对搜索引擎的正确使用，对我们能否在海量信息中�
       * 度量衡，mile in km，转换英里为千米数等等；
       * 城市时间天气，输入 time Beijing，会显示出当前时间，天气是城市前加 weather；
       * 农历日历，nl 2006-12-20、公历 2006-12-20、明年 立春、2008 小雪 等直接查询。
-![Googlesearchnl](http://dreamofbook.qiniudn.com/Googlesearchnongli.png)     
+![Googlesearchnl](/img/swirl/GoogleSearchNongli.png)     
+
 10. 算术。谷歌搜索中植入了计算器，我们可以通过搜索框进行简单的算术计算并直接显示出来。+是加、-是减 *是乘号、/是除号，^是的…次方、%是模 (除之后的余数)、选 是组合运算X选Y表示在 X 个单位中选 Y 个有多少种选法；开…次方 是计算一个数的 n 次方根 比如32开5次方；sqrt 是平方根，模式例如 sqrt(9)；sin, cos, etc. 三角函数（括号中的数字单位为弧度） sin(pi/3) tan(45)；ln 以 e 为底的对数 ln(17)；log 以 10 为底的对数 log(1,000)
 
 P.S.输入中文作为辅助词汇的一些搜索模式在中文谷歌（现在的谷歌 HK ）上搜索有效，包括日历、节气及算术中“等于”的运用。

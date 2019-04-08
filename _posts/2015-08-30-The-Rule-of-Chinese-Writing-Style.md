@@ -49,7 +49,7 @@ description:  个人版的简明书写注意事项
 
 纯文本，段落间用空行隔开。如果是 HTML 或其他富文本格式，使用额外空白作为段落间的分隔。
 
-例：这篇文章还能不能访问和浏览？你试着点击 [一篇不可访问的文章](http://www.google.com) 就知道了。
+例：这篇文章还能不能访问和浏览？你试着点击 [一篇不可访问的文章](https://www.google.com) 就知道了。
 
 ## 中英文拼写
 
@@ -81,5 +81,5 @@ description:  个人版的简明书写注意事项
 
 * [中文文案排版指北 - GitHub](https://github.com/sparanoid/chinese-copywriting-guidelines)
 * [豌豆荚文案风格指南) - Google Docs](https://docs.google.com/document/d/1R8lMCPf6zCD5KEA8ekZ5knK77iw9J-vJ6vEopPemqZM/edit)
-* [产品文案风格指南 – 太狼文摘](http://www.hoowolf.net/2014/12/05/product-copyright-style-guidelines/)
+* [产品文案风格指南 – 太狼文摘](https://www.hoowolf.net/2014/12/05/product-copyright-style-guidelines/)
 * [余光中：怎样改进英式中文？——论中文的常态与变态· LeanCloud 开放资源](https://open.leancloud.cn/improve-chinese.html)

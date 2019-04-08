@@ -14,7 +14,7 @@ image:
 
 只能暗自感慨一下，真不长记性，是为一记。
 
-![WebsiteGoogleScholarHomepage](http://dreamofbook.qiniudn.com/WebsiteGoogleScholarHomepage.png)
+![WebsiteGoogleScholarHomepage](/img/swirl/WebsiteGoogleScholarHomepage.png)
 
 先说说 Google Scholar 的屏蔽问题。对于能够访问（无论通过什么方式达成）的用户来说，依然是会遭遇 Google 的封锁的。
 
@@ -31,6 +31,6 @@ Chrome 浏览器搭配代理工具 [Proxy SwitchySharp](https://chrome.google.co
 3. 在 Chrome 扩展程序栏，点击 SwitchySharp 的图标，切换为对应规则，比如，使用 Shadowsocks 作为服务，则切换到 SS 的选项。
 4. 而后，点击 Auto Switch Mode 作为首选方式。正常情况下，刷新 Google 学术首页就可以正常使用了。
 
-![SwitchySharp](http://dreamofbook.qiniudn.com/ChromeExtensionProxySwitchySharpSetting.png)
+![SwitchySharp](/img/swirl/ChromeExtensionProxySwitchySharpSetting.png)
 
 当然，需要注意一点，在不访问 Scholar 的时候，如果继续使用 SwitchySharp，记得将 Mode 从 Auto Switch Mode 切换为 System Mode，让系统（其实就是自己用的 SS 服务或其它）接管代理规则设定，正常的网络访问会受影响。

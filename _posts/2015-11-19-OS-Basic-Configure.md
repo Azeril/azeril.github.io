@@ -44,7 +44,7 @@ brew install git
 
 ## Install Homebrew
 
-安装 [homebrew](http://brew.sh/)
+安装 [homebrew](https://brew.sh/)
 
 
 ```
@@ -64,7 +64,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
  
 ## Install Jekyll
 
-安装 [Jekyll](http://jekyllrb.com/docs/installation/)
+安装 [Jekyll](https://jekyllrb.com/docs/installation/)
 
 ```
 gem install jekyll

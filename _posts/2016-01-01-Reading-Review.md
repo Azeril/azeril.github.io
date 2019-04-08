@@ -18,12 +18,12 @@ description: 一年阅读惨淡的收场
 
 全年阅读 77 册。
 
-![](http://dreamofbook.qiniudn.com/DoubanBook2015MonthReview.png)
+![](/img/swirl/DoubanBook2015MonthReview.png)
 
 书影图墙。
 
 <center>
-  <img src="http://dreamofbook.qiniudn.com/DoubanBook2015List.jpg">
+  <img src="/img/swirl/DoubanBook2015List.jpg">
 </center>
 
 

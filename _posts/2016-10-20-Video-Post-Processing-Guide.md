@@ -7,7 +7,7 @@ description: "视频后期处理基础工具及入门"
 image:
   feature: windows.jpg
   credit: Azeril
-  creditlink: http://azeril.com
+  creditlink: azeril.com
 ---
 
 
@@ -34,9 +34,9 @@ Adobe Audition
 
 导入音频文件，直接拖拽文件到 AA 界面，完成音频的导入。
 
-![](http://openmindclub.qiniudn.com/Azeril/AdobeAuditionUITimelineSelect.png)
+![](https://openmindclub.qiniudn.com/Azeril/AdobeAuditionUITimelineSelect.png)
 
-![](http://openmindclub.qiniudn.com/Azeril/AdobeAuditionUICaptureNoisePrint.png)
+![](https://openmindclub.qiniudn.com/Azeril/AdobeAuditionUICaptureNoisePrint.png)
 
 1. 选取背景音部分 
 2. 应用取样选项 Effects——Noise Reduction/Restoration——Capture Noise Print
@@ -49,7 +49,7 @@ Adobe Audition
 
 ## 后期流程
 
-![](http://openmindclub.qiniudn.com/Azeril/VideoPostProductionFCPXUI.png)
+![](https://openmindclub.qiniudn.com/Azeril/VideoPostProductionFCPXUI.png)
 
 后期主要使用 Final Cut Pro X。
 
@@ -69,7 +69,7 @@ Adobe Audition
 
 每一节课，创建不同的项目（Project）来作为后期处理的主体，添加相应的课程视频、音频和图像文件。
 
-![](http://openmindclub.qiniudn.com/Azeril/VideoPostProductionFCPXNew.png)
+![](https://openmindclub.qiniudn.com/Azeril/VideoPostProductionFCPXNew.png)
 
 
 优先导入视频。使用导入（Menu 上，点击 File——Import），而后添加到相应的项目中；或者展开项目时间轴，将视频主体文件和音轨先后拖拽到时间轴上。
@@ -88,7 +88,7 @@ Adobe Audition
 
 ### 画面亮度
 
-![](http://openmindclub.qiniudn.com/Azeril/VideoPostProductionFCPXBalanceColor.jpg)
+![](https://openmindclub.qiniudn.com/Azeril/VideoPostProductionFCPXBalanceColor.jpg)
 
 如果拍摄的画面亮度不够，可以使用 FCPX 自带的 Balance Color 工具对画面进行调节。默认自动调节即可，如有必要，可以在右侧特效设定栏中自定义。
 
@@ -121,7 +121,7 @@ Adobe Audition
 
 MacBook 或 iMac 外接键盘的「Delete」键在 Windows 系统外接键盘（非 Mac 官方的外接键盘）上起到一致作用的键是叫「Backspace」（键位也是一致的，在「-」「+」号边上），而那些外接键盘上的「Delete」按键，起到的作用则是 FCPX 中用空白帧替换（Replace With Gap）的功能。
 
-![](http://openmindclub.qiniudn.com/Azeril/VideoPostProductionFCPXMenuDelete.png)
+![](https://openmindclub.qiniudn.com/Azeril/VideoPostProductionFCPXMenuDelete.png)
 
 
 ### 主要操作
@@ -152,7 +152,7 @@ MacBook 或 iMac 外接键盘的「Delete」键在 Windows 系统外接键盘（
 
 画面操作涉及截取、水平调整和变形等操作，包括视频片段与图片素材。
 
-![](http://openmindclub.qiniudn.com/Azeril/VideoPostProductionFCPXActionTransform.png)
+![](https://openmindclub.qiniudn.com/Azeril/VideoPostProductionFCPXActionTransform.png)
 
 
 - 过渡
@@ -194,13 +194,13 @@ MacBook 或 iMac 外接键盘的「Delete」键在 Windows 系统外接键盘（
 
 在此还需对声效做渐变处理（声音的淡入淡出效果），在讲话声音出现后，让声效越来越弱直到消失，而非从头到尾都是同样的音量。方法是，将鼠标定位在片段边缘的位置，等到出现一条附带左右箭头的实线时，拖动就可以改变音量轨迹。
 
-![](http://openmindclub.qiniudn.com/Azeril/VideoPostProductionFCPXTimelineModify.png)
+![](https://openmindclub.qiniudn.com/Azeril/VideoPostProductionFCPXTimelineModify.png)
 
 结尾处的音效可以相对简短，10 秒前后，渐变由弱变强。
 
 Logo 添加，选用透明底色的 Logo，文件为 PNG 格式，导入后，设定摆放位置，在 720P 画质时，默认使用的位置为 X：550 Y：300。
 
-![](http://openmindclub.qiniudn.com/Azeril/VideoPostProductionFCPXLogoDisplay.png)
+![](https://openmindclub.qiniudn.com/Azeril/VideoPostProductionFCPXLogoDisplay.png)
 
 
 ## 导出压制
@@ -211,7 +211,7 @@ Logo 添加，选用透明底色的 Logo，文件为 PNG 格式，导入后，�
 
 视频处理完成后，需从 FCPX 导出。导出的方法是，将时间轴切换到想要导出的项目，而后点击顶部菜单栏「File」-「Share」选项。
 
-![](http://openmindclub.qiniudn.com/Azeril/VideoPostProductionFCPXShare.png)
+![](https://openmindclub.qiniudn.com/Azeril/VideoPostProductionFCPXShare.png)
 
 导出首选导出母版文件（Master File），视频格式为 Apple 默认的 mov 格式。
 
@@ -223,7 +223,7 @@ Logo 添加，选用透明底色的 Logo，文件为 PNG 格式，导入后，�
 
 ### 转码压制
 
-![](http://openmindclub.qiniudn.com/Azeril/MovaviFormatConversionUIVideoQuality.png)
+![](https://openmindclub.qiniudn.com/Azeril/MovaviFormatConversionUIVideoQuality.png)
 
 在视频从 FCPX 的视频库中导出后，为压缩视频，需再次使用 Movavi 转码。
 
@@ -243,7 +243,7 @@ P.S. 最终的课程视频将上传到腾讯云作为点播使用，而主要的
 
 ## Related
 
-- [Final Cut Pro X 常用快捷键清单](http://azeril.me/blog/Final-Cut-Pro-X-Shortcuts.html)
+- [Final Cut Pro X 常用快捷键清单](https://azeril.me/blog/Final-Cut-Pro-X-Shortcuts.html)
 - [Final Cut Pro X: Final Cut Pro 界面概述](https://support.apple.com/kb/PH12734?viewlocale=zh_CN&locale=zh_CN)
 
 ## Log

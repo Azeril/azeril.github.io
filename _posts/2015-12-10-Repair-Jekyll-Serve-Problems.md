@@ -57,7 +57,7 @@ gem 'pygments.rb'
 
 再次运行服务，恢复正常啦。
 
-![](http://dreamofbook.qiniudn.com/Blog.Jekyll.Run.The.Serve.png)
+![](/img/swirl/ServeJekyllBlogRun.png)
 
 
 ## 参考资料

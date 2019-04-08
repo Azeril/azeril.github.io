@@ -21,27 +21,27 @@ Markdown 格式的简洁特性、兼容扩展性颇佳，使之能快速转换�
 
 常见及常用的 Markdown 编辑器很多，比如：
 
-* [MacDown](http://macdown.uranusjr.com/)
-* [Typora](http://typora.io/)  
+* [MacDown](https://macdown.uranusjr.com/)
+* [Typora](https://typora.io/)  
 
 此外还有（收费为主）：
 
-* [Scrivener](http://www.literatureandlatte.com/scrivener.php)
-* [Typed](http://realmacsoftware.com/typed/)
+* [Scrivener](https://www.literatureandlatte.com/scrivener.php)
+* [Typed](https://realmacsoftware.com/typed/)
 * [
 ](https://ia.net/writer/mac/)
-* [Byword](http://bywordapp.com/)
-* [Marked 2](http://marked2app.com/)
-* [Ulysses](http://www.ulyssesapp.com/)
-* [Marboo](http://marboo.io/) 
-* [Mou](http://25.io/mou/)
+* [Byword](https://bywordapp.com/)
+* [Marked 2](https://marked2app.com/)
+* [Ulysses](https://www.ulyssesapp.com/)
+* [Marboo](https://marboo.io/) 
+* [Mou](https://25.io/mou/)
 
 以及支持 Markdown 的优质在线编辑器：
 
-* [马克飞象](http://maxiang.info/)
-* [Dillinger](http://dillinger.io/)
+* [马克飞象](https://maxiang.info/)
+* [Dillinger](https://dillinger.io/)
 * [StackEdit](https://stackedit.io/)
-* [Markable](http://markable.in/editor/)
+* [Markable](https://markable.in/editor/)
 
 入门编辑器推荐第一序列的 MacDown，其它编辑器可以等熟悉 Markdown 之后再自行探索。
  
@@ -55,7 +55,7 @@ Markdown 格式的简洁特性、兼容扩展性颇佳，使之能快速转换�
 
 先看一个包含了蛮多基本语法的范例。
 
-![Markdown](http://dreamofbook.qiniudn.com/Markdown-Sample.png)
+![Markdown](https://dreamofbook.qiniudn.com/Markdown-Sample.png)
 
 关于语法，让我们先从在文中起到分清区块、梳理逻辑关系的标题说起：
 
@@ -250,7 +250,7 @@ My Favorite Fruit List:
 
 博客默认的 Markdown 工具有点问题，效果如下图：
 
-![嵌套引用](http://i1381.photobucket.com/albums/ah234/Azeril_Lapland/Screen%20Shot%202015-08-30%20at%209.26.17%20PM_zpsg0ojze8c.png)
+![嵌套引用](https://i1381.photobucket.com/albums/ah234/Azeril_Lapland/Screen%20Shot%202015-08-30%20at%209.26.17%20PM_zpsg0ojze8c.png)
 
 语法如下，每行多添加一个「>」符号，再输入文字内容即可（每行行尾记得添两个空格符）：
 
@@ -319,11 +319,11 @@ My Favorite Fruit List:
 
 使用「<」、「>」这样的尖角符号，url/email 在 Markdown 下可自动实现可点击链接的效果。
 
-    <http://www.google.com>
+    <https://www.google.com>
 
 显示效果如下：
 
-<http://www.google.com>
+<https://www.google.com>
 
 ### 网址链接
 
@@ -338,11 +338,11 @@ My Favorite Fruit List:
 
 以下为一个网址的栗子：
 
-    [Welcome to my blog](http://azeril.me)
+    [Welcome to my blog](https://azeril.me)
 
 显示效果如下：
 
-[Welcome to my blog](http://azeril.me)
+[Welcome to my blog](https://azeril.me)
 
 ### 索引链接
 
@@ -350,20 +350,20 @@ My Favorite Fruit List:
 
     [Click Google Search][Tags]
 
-    [Tags]: http://www.google.com "Google"
+    [Tags]: https://www.google.com "Google"
 
 显示效果如下：
 
 [Click Google Search][Tags]
 
-[Tags]: http://www.google.com "Google"
+[Tags]: https://www.google.com "Google"
 
 ## 添加图片
 
 插入图片的语法：
 
     ![Pic name](Pic link)  
-    ![Instagram Pic](http://i.imgur.com/UKhrRrK.jpg)
+    ![Instagram Pic](https://i.imgur.com/UKhrRrK.jpg)
 
 * 一个英文输入下的惊叹号「!」；
 * 一个方括号，添加图片的描述文字；
@@ -373,7 +373,7 @@ My Favorite Fruit List:
 
 显示效果如下：
 
-![Instagram Pic](http://i.imgur.com/UKhrRrK.jpg)
+![Instagram Pic](https://i.imgur.com/UKhrRrK.jpg)
 
 ## 添加表格
 
@@ -448,7 +448,7 @@ HTML 可以契合 MD 语法，而通过利用前者，可以实现一些单纯�
 
 
 
-![Pic_Sample](http://7s1rzi.com1.z0.glb.clouddn.com/Pic_Sample.jpg)
+![Pic_Sample](https://https://dreamofbook.qiniudn.com/Pic_Sample.jpg)
 
 在页面中，要并排插入多张图片（两张或三张并排显示）或将插入图片居中显示，又或者是类似固定显示图片的宽度与高度，目前依靠 Markdown 语法还无法实现。
 这时，调用 HTML 语法就可以轻松搞定。
@@ -461,9 +461,9 @@ HTML 可以契合 MD 语法，而通过利用前者，可以实现一些单纯�
 
 常用图床： 
 
-* [七牛云存储](http://www.qiniu.com/)
-* [Imgur](http://imgur.com/)
-* [Photobucket](http://s1381.photobucket.com/)
+* [Imgur](https://imgur.com/)
+* [七牛云存储](https://www.qiniu.com/)
+* [Photobucket](https://photobucket.com/)
 
 图床在上传图片后会提供一个图片的外链。我们可以利用外链把图片添加到自己的博文中。图片也可以存储在 Github 自己的博客仓库里，不过图片蛮占用空间（Github 项目空间为200 M）。因而最好是选图床托管图片。
 
@@ -472,53 +472,53 @@ HTML 可以契合 MD 语法，而通过利用前者，可以实现一些单纯�
 单张居中显示：
 
     <center>
-        <img src="http://dreamofbook.qiniudn.com/Zero.png">
+        <img src="https://dreamofbook.qiniudn.com/Zero.png">
     </center>
     
     OR
 
     <figure>
-        <img src="http://xxx.jpg">
+        <img src="https://xxx.jpg">
     </figure> 
 
 效果如下：
 
 <figure>
-<img src="http://dreamofbook.qiniudn.com/Zero.png">
+<img src="https://dreamofbook.qiniudn.com/Zero.png">
 </figure> 
 
 固定图片宽度/高度：
 
-    <img src="http://xxx.jpg" title="Logo" width="100" />
+    <img src="https://xxx.jpg" title="Logo" width="100" />
 
 宽度是 Width，高度是 High。Title 为图片描述。
 
 效果如下：
 
-<img src="http://dreamofbook.qiniudn.com/Zero.png" title="Logo" width="100" />
+<img src="https://dreamofbook.qiniudn.com/Zero.png" title="Logo" width="100" />
 
 两张并排显示：
 
     <figure class="half">
-        <img src="http://xxx.jpg">
-	    <img src="http://yyy.jpg">
+        <img src="https://xxx.jpg">
+	    <img src="https://yyy.jpg">
     </figure>
     
 三张并排显示：
 
     <figure class="third">
-        <img src="http://xxx.jpg">
-	    <img src="http://yyy.jpg">
-	    <img src="http://zzz.jpg">
+        <img src="https://xxx.jpg">
+	    <img src="https://yyy.jpg">
+	    <img src="https://zzz.jpg">
     </figure>
 
-使用时复制相应的代码粘贴，然后替换 ""(英文输入下的引号) 里的链接，也就是例子中的「http://xxx.jpg」链接为自己上传图片（一般只有在图床上传的图才有这样的链接）的外链。
+使用时复制相应的代码粘贴，然后替换 ""(英文输入下的引号) 里的链接，也就是例子中的「https://xxx.jpg」链接为自己上传图片（一般只有在图床上传的图才有这样的链接）的外链。
 
 Tips: 关于 jpg/png 都是常用文件格式，jpg 格式压缩效率高，相对文件质量小一点，占用网络空间少，在页面里显示时加载会快一些。png 格式的图片更清晰。
 
 ### 添加 Github 图片
     
-如果是利用在 Github 项目文件夹里的图片，基本的语法不变，只是将前面提到 "" 里的图片外链（网址）替换为：
+如果是利用在 Github 项目文件夹里的图片，基本的语法不变，只是将前面提到引号 "" 里的图片外链（网址）替换为：
 
     「自定义的域名 + 图片在 Github 项目的位置」
 
@@ -528,13 +528,13 @@ Tips: 关于 jpg/png 都是常用文件格式，jpg 格式压缩效率高，相�
 
 引用的代码自动变形了。博文中两个花括号及「site.url」构成的代码块会自动补全为我的个人域名，所以这篇博文代码区中的演示也受到了影响(上一段的引用就受到影响了。后边的文中引用的例子也一样)。如果复制了刚才的代码块，需要将「 azeril.me//」修改成下图中的样子（两个花括号，中间加 site.url ）。即：
 
-![code](http://dreamofbook.qiniudn.com/onelinecode.png)
+![code](https://dreamofbook.qiniudn.com/onelinecode.png)
 
 使用时复制和修改相应的代码，并替换「/images/xxx.jpg」这样的链接为自己放置图片的路径。
 
 如果 Github 项目下有 images 文件夹，直接在里面放图，就是如上的代码替换。如果是 images 目录下的文件夹，如 Instagram，则路径为：「images/Instagram/ xxx.jpg」。依此类推。
 
-![](http://dreamofbook.qiniudn.com/twolinescode.png)
+![](https://dreamofbook.qiniudn.com/twolinescode.png)
 
 ### 附加浏览窗口的模式
 
@@ -542,7 +542,7 @@ Tips: 关于 jpg/png 都是常用文件格式，jpg 格式压缩效率高，相�
 
 效果如下：
 
-![PreviewPic](http://dreamofbook.qiniudn.com/Preview_Pic.png)
+![PreviewPic](https://dreamofbook.qiniudn.com/Preview_Pic.png)
 
 两张并排显示的代码（单张和三张代码和前述的类似）：
 
@@ -558,18 +558,17 @@ Tips: 关于 jpg/png 都是常用文件格式，jpg 格式压缩效率高，相�
 
 下载地址：
 
-百度云 - [Dl from BaiduYun](http://pan.baidu.com/s/1Bb4qM)  
-box.com -  [Dl from Box.com](https://app.box.com/s/l8x1jajwv82umq33aa7dkwpl9sr59q55)  
-dropbox -  [Dl from Dropbox](https://dl.dropboxusercontent.com/u/64524965/AddPic.md)  
+Box.com - [Dl from Box.com](https://app.box.com/s/l8x1jajwv82umq33aa7dkwpl9sr59q55)  
+Dropbox - [Dl from Dropbox](https://dl.dropboxusercontent.com/u/64524965/AddPic.md)  
+百度云 - [Dl from BaiduYun](https://pan.baidu.com/s/1Bb4qM)  
 
 愉快。
 
 
 ## 参考文档及扩展阅读
 
-1. [献给写作者的 Markdown 新手指南_简书](http://www.jianshu.com/p/q81RER)  
-2. [Markdown 语法说明_WowUbuntu](http://wowubuntu.com/markdown/#editor)  
-3. [Markdown 语法说明（详解版）_图灵社区](http://www.ituring.com.cn/article/504)  
+1. [献给写作者的 Markdown 新手指南_简书](https://www.jianshu.com/p/q81RER)  
+2. [Markdown 语法说明_WowUbuntu](https://wowubuntu.com/markdown/#editor)  
+3. [Markdown 语法说明（详解版）_图灵社区](https://www.ituring.com.cn/article/504)  
 4. [Mastering Markdown · GitHub Guides](https://guides.github.com/features/mastering-markdown/)
 5. [Markdown - Wikiwand](https://www.wikiwand.com/zh/Markdown)
-6. [Markdown 写作浅谈 - 阳志平的网志](http://www.yangzhiping.com/tech/r-markdown-knitr.html)
