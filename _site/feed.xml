@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
+	<channel>
+		<title>Microdust</title>
+		<description>在遙遠的地方 一切虔誠終必相遇</description>
+		<link>/</link>
+		<atom:link href="/" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>使用代理，突破 Google Scholar 访问受限</title>
+				<description>&lt;p&gt;最近遇到好几回同事 Google 搜索服务能正常使用，而 Google Scholar 无法访问的事。先前用 Google 检索了不少的网络记录，费了一阵折腾，换 SS 服务器、修改 Hosts（包括添加 Google Scholar 的 IPV6 地址）、清空 DNS 缓存等，几番尝试都没搞定，今天也是一样，因为我都忘了上次最终怎么搞定的了…当然，最后是回溯了一下多年来与糟糕的网络状况相伴，以及在此间的种种解决方法，最终还是搞定了。&lt;/p&gt;
+
+&lt;p&gt;只能暗自感慨一下，真不长记性，是为一记。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://dreamofbook.qiniudn.com/WebsiteGoogleScholarHomepage.png&quot; alt=&quot;WebsiteGoogleScholarHomepage&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;先说说 Google Scholar 的屏蔽问题。对于能够访问（无论通过什么方式达成）的用户来说，依然是会遭遇 Google 的封锁的。&lt;/p&gt;
+
+&lt;p&gt;一方面是 Google 对于学术搜索有着很严格的管控，操作频繁很容易就被判定为滥用或程序爬取之类的恶意行动，而被封锁 IP；另一方面，也是出于防止滥用，预防性地对诸多空间服务商的 IP 进行了封锁，而连带着扎根于此之上的 VPN 或 Shadowsocks 等服务也被牵连，导致无法正常访问 Scholar。&lt;/p&gt;
+
+&lt;p&gt;遇上前者，如果是人为的偶然操作导致，多半会在短期内就解封，而如果是被判定恶意或 IP 早就被屏蔽，那等待也没办法解决这种问题。最佳的方式还是切换 IP。&lt;/p&gt;
+
+&lt;p&gt;Chrome 浏览器搭配代理工具 &lt;a href=&quot;https://chrome.google.com/webstore/detail/proxy-switchysharp/dpplabbmogkhghncfbfdeeokoefdjegm?hl=en&quot;&gt;Proxy SwitchySharp&lt;/a&gt; 来绕开 Google 的封锁。&lt;/p&gt;
+
+&lt;p&gt;操作方式蛮简单的:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;下载和安装改扩展程序;&lt;/li&gt;
+  &lt;li&gt;为 SwitchySharp 导入规则，规则导入后，Proxy Profiles 和 Switch Rules 都会导入相应设定；&lt;/li&gt;
+  &lt;li&gt;在 Chrome 扩展程序栏，点击 SwitchySharp 的图标，切换为对应规则，比如，使用 Shadowsocks 作为服务，则切换到 SS 的选项。&lt;/li&gt;
+  &lt;li&gt;而后，点击 Auto Switch Mode 作为首选方式。正常情况下，刷新 Google 学术首页就可以正常使用了。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://dreamofbook.qiniudn.com/ChromeExtensionProxySwitchySharpSetting.png&quot; alt=&quot;SwitchySharp&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;当然，需要注意一点，在不访问 Scholar 的时候，如果继续使用 SwitchySharp，记得将 Mode 从 Auto Switch Mode 切换为 System Mode，让系统（其实就是自己用的 SS 服务或其它）接管代理规则设定，正常的网络访问会受影响。&lt;/p&gt;
+</description>
+				<pubDate>Thu, 27 Apr 2017 00:00:00 +0800</pubDate>
+				<link>/blog/How-To-Break-Google-Scholar-Blockade.html</link>
+				<guid isPermaLink="true">/blog/How-To-Break-Google-Scholar-Blockade.html</guid>
+			</item>
+		
+			<item>
+				<title>BJIFF 2017 光影瞬间</title>
+				<description>&lt;p&gt;电影节落幕了。&lt;/p&gt;
+
+&lt;p&gt;今年的北京电影节有点赶场，尤其是落幕前的一周，基本每天都往影院跑，多少也有点疲倦的，以至于最后一天周日的下午场，开场后还犯了一会儿迷糊。&lt;/p&gt;
+
+&lt;p&gt;当然，影片都很好，引发的感动，可能不如上一次多，可能投入的感情也不那么分得过来啦。&lt;/p&gt;
+
+&lt;p&gt;每一部都有值得记忆的地方。一部一部来，今年的开场片是大卫·林奇的《象人》。&lt;/p&gt;
+
+&lt;p&gt;第二三两部是我所喜欢的导演是枝裕和的佳作。《海街日记》是重看的，在大银幕上重遇的感觉真好。《比海更深》是最新上映的那部，能在国内看也是实打实的动人。风格上，依旧是很是枝裕和。&lt;/p&gt;
+
+&lt;p&gt;第四部影片，是隔了一天的周三看的。周二是去看话剧《蒋公的面子》了…周三看的影片是三谷幸喜导演的《魔幻时刻》，真是好喜欢这部充满片场感的古灵精怪电影。&lt;/p&gt;
+
+&lt;p&gt;周四，伍迪·艾伦的《曼哈顿》，还没开始系统地看伍迪·艾伦的作品，原先也更多是零星挑了一些近些年的作品看了，但没注意过与《安妮·霍尔》同时期的这部大作。真是幸运啊，能在大荧幕上初相逢。风格上，两部影片也算是一脉相承的…唠叨。&lt;/p&gt;
+
+&lt;p&gt;周五，最初购票时是没找到合适的影片，所以打算周末前的晚上休息一下的。凑巧，前一天在一个影迷群里看到有人转票，影片是贾木许的《帕特森》，而开场时间也是八点三刻才开始，更妙的是，影院是距离办公室最近的那个，来去也方便，就果断地拿下了。&lt;/p&gt;
+
+&lt;p&gt;周六，中间影院，电影节第三次奔赴此地，看安东尼奥尼的佳作《放大》。安东尼奥尼是今年北影节的展映活动的主题导演之一。&lt;/p&gt;
+
+&lt;p&gt;周日，第一次光顾 CBD 万达影城，雅克·塔蒂《玩乐时间》。起初觉得有些乏味，加上又是黑白片，风格上还不能适应。但越看到后头，趣味越发能品出来，结尾则是点睛之笔，有点狂欢又不放纵的美感。&lt;/p&gt;
+
+</description>
+				<pubDate>Thu, 20 Apr 2017 00:00:00 +0800</pubDate>
+				<link>/blog/After-Beijing-International-Film-Festival-2017.html</link>
+				<guid isPermaLink="true">/blog/After-Beijing-International-Film-Festival-2017.html</guid>
+			</item>
+		
+			<item>
+				<title>优化轻断食，调整饮食结构</title>
+				<description>&lt;p&gt;从南京旅行回来之后的这两周，重新尝试不算严格的轻断食，体重开始稳步降低，这周末的最新数值是 67kg。当前的理想状态是 62kg。&lt;/p&gt;
+
+&lt;p&gt;重拾轻断食之外，也重新审视了一下去年时执行轻断食的日常饮食方案，打算做一点调整。&lt;/p&gt;
+
+&lt;p&gt;先前的轻断食，更多的只是在饮食节奏上的改变，但对于饮食结构并没有足够重视。当然，即使如此，收效也不小。&lt;/p&gt;
+
+&lt;p&gt;最近一年其实吃的还算健康，多半都是自己下厨，食物新鲜，用油盐较少，烹煮也到位，味道也看算满意。也不知是吃的的确是蛮好把自己喂肥了还是运动太少，疏于锻炼导致的，体重在一年里又回升了。巅峰状态就是去年过年前后到前一阵的 70kg。&lt;/p&gt;
+
+&lt;p&gt;长此以往肯定不好，维持现状轻松肯定是轻松的，也算心安理得。可还是更喜欢瘦一点，精神气足一点的状态，乃至于有点怀念一直到大学为止的消瘦状态。理想的体重是 62kg 左右。目前就依次为目标吧。希望四月结束前将体重先稳定到 65kg，再结合适应性的锻炼来进一步瘦身。&lt;/p&gt;
+
+&lt;p&gt;重新说饮食结构的问题。打算将先前以米饭为主食的饮食，切换到以土豆/番薯和大米及粗粮交替的吃法。&lt;/p&gt;
+
+&lt;p&gt;土豆自身的热量相对较低，纤维素多，易于保持饱腹感，此外还能与大米及其它粗粮能形成差异化的营养素补充。比较适合作为大米的替代品来食用，当然米还是要吃的，不时交替地吃着。&lt;/p&gt;
+
+&lt;p&gt;在审视当下的饮食的时候，另外还有一个特别需要注意的点是糖分的摄入超标蛮严重的。我不确定这是否才是过去一年体重上扬的主谋。不管是或否都得当心一点了，尽量改善身体的热量摄入过度的状况，维持自己身体日常的血糖平衡。&lt;/p&gt;
+
+&lt;p&gt;这样的话，可乐、果汁、汽水等饮料，雪糕、冰淇淋等奶制品，薯片、巧克力、果冻、糖果等零食都要归入控制食物清单，尽量减少购买了。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;轻断食：一周轻断食至少两天，周二、周四为主；&lt;/li&gt;
+  &lt;li&gt;每周食谱：至少三天的土豆与番薯为主食，菜以蔬菜、豆制品、鸡蛋为主；&lt;/li&gt;
+  &lt;li&gt;每周限定：一罐可乐、一支雪糕/冰淇淋、一包薯片；&lt;/li&gt;
+  &lt;li&gt;饮料：喝酸奶、牛奶、益生菌、果蔬汁和自己泡茶；&lt;/li&gt;
+  &lt;li&gt;不再购买可口可乐/统一/康师傅/娃哈哈/美汁源等生产的各类饮料。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;即日起生效，至少维持到 6 月末再调整。&lt;/p&gt;
+</description>
+				<pubDate>Sun, 16 Apr 2017 00:00:00 +0800</pubDate>
+				<link>/blog/Cook-With-Potatoes.html</link>
+				<guid isPermaLink="true">/blog/Cook-With-Potatoes.html</guid>
+			</item>
+		
+			<item>
+				<title>Course Note of Codecademy Introduction To JavaScript</title>
+				<description>&lt;p&gt;Note about Codecademy JavaScript Course &lt;a href=&quot;https://www.codecademy.com/learn/learn-javascript&quot;&gt;Introduction To JavaScript&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;What can we use JavaScript for?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;make websites respond to user interaction&lt;/li&gt;
+  &lt;li&gt;build apps and games (e.g. blackjack)&lt;/li&gt;
+  &lt;li&gt;access information on the Internet (e.g. find out the top trending words on Twitter by topic)&lt;/li&gt;
+  &lt;li&gt;organize and present data (e.g. automate spreadsheet work; data visualization)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;confirm-and-prompt&quot;&gt;Confirm and prompt&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;confirm &lt;code class=&quot;highlighter-rouge&quot;&gt;confirm(“words”);&lt;/code&gt; Web action confirm&lt;/li&gt;
+  &lt;li&gt;prompt &lt;code class=&quot;highlighter-rouge&quot;&gt;prompt();&lt;/code&gt; Ask for input&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;data-types&quot;&gt;Data Types&lt;/h3&gt;
+
+&lt;p&gt;There are three essential data types in JavaScript: strings, numbers, and booleans.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;a. numbers   (e.g. 4.3, 134)&lt;/li&gt;
+  &lt;li&gt;b. strings (e.g. “dogs go woof!”, “JavaScript expert”)&lt;/li&gt;
+  &lt;li&gt;c. booleans ~ A boolean is either true or false.  (e.g. false, 5 &amp;gt; 4)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;math&quot;&gt;Math&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;( ): control order of operations&lt;/li&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;and /: multiplication and division&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;and +: subtraction and addition&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;% modulo. ~ When % is placed between two numbers, the computer will divide the first number by the second, and then return the remainder of that division. ~ module it good at testing divisibility. 
+ We can use modulos in comparisons, like this: &lt;code class=&quot;highlighter-rouge&quot;&gt;10 % 2 === 0 //evaluates to true&lt;/code&gt; And &lt;code class=&quot;highlighter-rouge&quot;&gt;7 % 3 === 0 //evaluates to falsebecause there is 1 left over.&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;comments&quot;&gt;Comments&lt;/h3&gt;
+
+&lt;p&gt;We write a single line comment with //and a multi-line comment with /* and */.&lt;/p&gt;
+
+&lt;p&gt;Two types of code comments in JavaScript:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A single line comment will comment out a single line, and is denoted with two forward slashes // preceding a line of JavaScript code.&lt;/li&gt;
+  &lt;li&gt;A multi-line comment will comment out multiple lines, and is denoted with /* to begin the comment, and */ to end the comment.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;consolelog&quot;&gt;console.log&lt;/h3&gt;
+
+&lt;p&gt;console.log() ~ Prints into the console whatever we put in the parentheses.This is commonly called printing out.&lt;/p&gt;
+
+&lt;p&gt;We can use the + operator from earlier to interpolate (insert) a variable into a string.&lt;/p&gt;
+
+&lt;p&gt;List of comparison operators:&lt;/p&gt;
+
+&lt;p&gt;Comparisons need two things to compare and they will always return a boolean (true or false).&lt;/p&gt;
+
+&lt;p&gt;Comparison operators, like &amp;lt;, &amp;gt;, &amp;lt;=, and &amp;gt;= can compare two variables. After they compare, they always return either true or false.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* &amp;gt; Greater than
+* &amp;lt; Less than
+* &amp;lt;= Less than or equal to
+* &amp;gt;= Greater than or equal to
+* === Equal to (To check if two things equal each other)
+* !== Not equal to 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Logical Operators, like &amp;amp;&amp;amp;,&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;, !==, and !, can compare two variables to see if a certain condition exists:&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* &amp;amp;&amp;amp; Checks if both sides are true.
+* || Checks if either side is true.
+* ! Changes a variable that is true to false, and vice versa.
+* !== Checks if both sides are not equal.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;conditionals&quot;&gt;Conditionals&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;if&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;An if statement is made up of the if keyword, a condition like we’ve seen before, and a pair of curly braces { }. If the answer to the condition is yes, the code inside the curly braces will run.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;if( &quot;myName&quot;.length &amp;gt;= 7 ) {
+    console.log(&quot;You have a long name!&quot;);
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;if…else&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;if the condition is true, then only the code inside the first pair of curly braces will run. Otherwise, the condition is false, so only the code inside the second pair of curly braces after the elsekey word will run.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;if…else if…else&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We can add extra conditions with to if/else statements with else if conditions.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;switch&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To deal with times when you need many else if conditions, we can turn to a switch statement to write more concise and readable code.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;switch (condition) {
+    case “”: 
+        …;
+        break;
+    case “”:
+    repeat_repeat
+    repeat…
+    default:
+        …;
+        break;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;substrings&quot;&gt;Substrings&lt;/h3&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;”some word&quot;.substring(x, y)&lt;/code&gt; 
+~ where x is where you start chopping and y is where you finish chopping the original string. 
+~ Each character in a string is numbered starting from 0.&lt;/p&gt;
+
+&lt;h2 id=&quot;variables&quot;&gt;Variables&lt;/h2&gt;
+
+&lt;p&gt;We store data values in variables. We can bring back the values of these variables by typing the variable name.Then, if the variable’s value changes we only have to change the variable’s value instead of re-writing the entire program.&lt;/p&gt;
+
+&lt;p&gt;Variables are useful in two ways:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;They allow us to use the same value over and over, without having to write a string or other data type over and over.&lt;/li&gt;
+  &lt;li&gt;More importantly, we can assign variables different values that can be read and changed by the program without altering our code.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;var varName = data;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;A variable’s value is easily changed. Just pretend you are creating a new variable while using the same name of the existing variable.&lt;/p&gt;
+
+&lt;h2 id=&quot;random-number&quot;&gt;Random Number&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Math.random();&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This code will return a random number between 0 and 1. JavaScript will generate a random number for us with this code.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Math.floor(Math.random() * 50);&lt;/code&gt;
+ Math.floor will take a decimal number, and round down to the nearest whole number.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;control-flow&quot;&gt;Control Flow&lt;/h2&gt;
+
+&lt;p&gt;In programming, making decisions with code is called control flow.&lt;/p&gt;
+
+&lt;p&gt;This sentence looks fairly similar when we write it with JavaScript. See for yourself:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var needCoffee = true;
+if (needCoffee) {
+    console.log('Finding coffee');
+    } else {
+    console.log('Keep on keeping on!');
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If the variable needCoffee is true, JavaScript will run one code block, and if a variable is false, it will run another.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;needCoffee&lt;/code&gt; is the condition we are checking inside the if’s parentheses. Since it is equal to true, our program will run the code between the first opening curly brace { (line 2) and the first closing curly brace } (line 4). It will completely ignore the else { … } part. In this case, we’d see ‘Finding coffee’ log to the console. Note: Code between curly braces are called blocks. if/else statements have two code blocks.&lt;/li&gt;
+  &lt;li&gt;If we adjusted needCoffee to be false, only the else’s console.log will run.&lt;/li&gt;
+  &lt;li&gt;if/else statements are how we can process yes/no questions programmatically.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Why is there a \ in ‘I lead a muggle's life.’? Since the string is surrounded by single quotes, we can use a back slash to add a single quote within the string. This is called escaping a character.&lt;/p&gt;
+
+&lt;h2 id=&quot;function&quot;&gt;Function&lt;/h2&gt;
+
+&lt;p&gt;A function is a block of code designed to perform a task.&lt;/p&gt;
+
+&lt;p&gt;Functions are like recipes. They take data or variables, perform a set of tasks on them, and then return the result. The beauty of functions is that they allow us to write a chunk of code once, then we can reuse it over and over without writing the same code over and over.&lt;/p&gt;
+
+&lt;p&gt;function fun_name(parameter) {
+    xxx;
+}&lt;/p&gt;
+
+&lt;p&gt;If we want to give a function a number. To do this, we can use parameters. Parameters are variables that we can set when we call the function.&lt;/p&gt;
+
+&lt;p&gt;when we call fun_name(x), the x is called an argument.Arguments are provided when you call a function, and parameters receive arguments as their value.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;return ~ To return a result, we can use the return keyword.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Functions are written to perform a task.&lt;/li&gt;
+  &lt;li&gt;Functions take data or variables, perform a set of tasks on them, and then return the result.&lt;/li&gt;
+  &lt;li&gt;We can define parameters when calling the function.&lt;/li&gt;
+  &lt;li&gt;When calling a function, we can pass in arguments, which will set the function’s parameters.&lt;/li&gt;
+  &lt;li&gt;We can use return to return the result of a function which allows us to call functions anywhere, even inside other functions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;scope&quot;&gt;Scope&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Scope is the idea in programming that some variables are acessible/inaccessible from other parts of the program.&lt;/li&gt;
+  &lt;li&gt;Global Scope refers to variables that are accessible to every part of the program.&lt;/li&gt;
+  &lt;li&gt;Functional Scope refers to variables created inside functions, which are not accessible outside of its block.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;array&quot;&gt;Array&lt;/h2&gt;
+
+&lt;p&gt;We can also access each individual character in a string the same way you do with arrays.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;push()&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;pop()&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Arrays are lists and are a way to store data in JavaScript. Each item inside of an array is at a numbered position. Arrays are created with brackets [].&lt;/li&gt;
+  &lt;li&gt;We can access one item in an array using it’s numbered position, with syntax like: myArray[0].&lt;/li&gt;
+  &lt;li&gt;Arrays have a length property, which allows you to see how many items are in an array.&lt;/li&gt;
+  &lt;li&gt;Arrays also have their own methods, including &lt;code class=&quot;highlighter-rouge&quot;&gt;push&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;pop&lt;/code&gt;, which add and subtract items from an array, respectively.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;loop&quot;&gt;Loop&lt;/h2&gt;
+
+&lt;p&gt;Loops are especially helpful when we have an array where we’d like to do something to each item in the array, like logging each item to the console.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;for&lt;/code&gt; loops allow us to repeat a block of code a known amount of times.&lt;/li&gt;
+  &lt;li&gt;We can use a &lt;code class=&quot;highlighter-rouge&quot;&gt;for&lt;/code&gt; loop inside another &lt;code class=&quot;highlighter-rouge&quot;&gt;for&lt;/code&gt; loop to compare two lists.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;while&lt;/code&gt; loops are for looping over a code block an unknown amount of times.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;jquery&quot;&gt;jQuery&lt;/h2&gt;
+
+&lt;p&gt;The Document Object Model, commonly referred to as the DOM’, is the term for elements in an HTML file. Elements are any HTML code denoted by HTML tags, like &amp;lt;div&amp;gt;, &amp;lt;a&amp;gt;, or &amp;lt;p&amp;gt;.&lt;/p&gt;
+
+&lt;p&gt;To better interact with DOM elements, we can use a library. A library is a set of code that contains useful pre-written functions that help with certain tasks.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Include jQuery in our project. jQuery is a library, which means it is a set of code in a file, therefore we will need to link that file in our HTML in order to access it. Once we link it in our HTML file, we can use its functions and syntax in our js/main.js file.&lt;/li&gt;
+  &lt;li&gt;Once linked, we’ll need to make sure our HTML is loaded before we run our jQuery and JavaScript code. 
+The link to jQuery needs to be above the link to the js file, which will give js file access to the jQuery library.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$(document).ready(main);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;jQuery has a built in function to check if the page is ready before it will run our code. &lt;code class=&quot;highlighter-rouge&quot;&gt;main&lt;/code&gt; here is a callback, which means that our code will wait until the &lt;code class=&quot;highlighter-rouge&quot;&gt;document&lt;/code&gt;(the DOM) is loaded,or ready.&lt;/p&gt;
+
+&lt;p&gt;How to select HTML element?&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;document.getElementsByClassName(‘skillset’); // in JavaScript
+$(‘.skillset’); // in jQuery
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;example: &lt;code class=&quot;highlighter-rouge&quot;&gt;var $skillset = $('.skillset');&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;It is a common convention to name variables that hold jQuery selectors with a dollar sign &lt;code class=&quot;highlighter-rouge&quot;&gt;$&lt;/code&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;hide() ~ hide elements with jQuery&lt;/li&gt;
+  &lt;li&gt;fadeIn() ~  fade an element in over a period of time in milliseconds.&lt;/li&gt;
+  &lt;li&gt;on(‘click’) ~ It’s listens to an element for a click event&lt;/li&gt;
+  &lt;li&gt;show() ~ To make projects visible&lt;/li&gt;
+  &lt;li&gt;toggle() ~ toggle will hide or show an element, each time it is triggered.&lt;/li&gt;
+  &lt;li&gt;toggleClass() ~  Toggle a CSS class on the jQuery selector it’s connected to. If the element has the class applied to it, toggleClass will remove it, and if the element does not have the class, it will add it.&lt;/li&gt;
+  &lt;li&gt;next() ~ We can attach next to any jQuery selector to select the next direct element. Then, we can attach any jQuery function to next().&lt;/li&gt;
+  &lt;li&gt;text() ~ With this function, we can change the text of an element.&lt;/li&gt;
+  &lt;li&gt;slideToggle() ~ Animate an element’s entrance and exit. It can be called directly on a jQuery selector.Also, it takes a parameter of milliseconds that the animation should last.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;$(this)&lt;/code&gt; ~ &lt;code class=&quot;highlighter-rouge&quot;&gt;this&lt;/code&gt; is a JavaScript keyword.&lt;code class=&quot;highlighter-rouge&quot;&gt;this&lt;/code&gt; will only acting the class of the one that is worked.&lt;code class=&quot;highlighter-rouge&quot;&gt;$(this)&lt;/code&gt; behaves just like our other selectors.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+				<pubDate>Sun, 09 Apr 2017 00:00:00 +0800</pubDate>
+				<link>/blog/Course-Notes-of-Codecademy-Introduction-to-JavaScript.html</link>
+				<guid isPermaLink="true">/blog/Course-Notes-of-Codecademy-Introduction-to-JavaScript.html</guid>
+			</item>
+		
+			<item>
+				<title>与 Trello 一起旅行</title>
+				<description>&lt;p&gt;印象中，从前也没仔细做过旅行规划。包括去年玩得蛮充实的西安之行也是。至于更多时间，工作要么就是宅着，也的确是不利于发展这样的技能。&lt;/p&gt;
+
+&lt;p&gt;前一阵子开始将内容管理的核心转移到 Trello 上。注册 Trello 是 2013 年时的事了，但一直没怎么用起来，缘由和往常类似，不知道拿来干嘛，除此之外，还有一点就是，作为一款项目管理工具，我长期不怎么做项目管理，要么是因为团队的关系，期间也数度在国内几个项目协同管理工具间切换，但也没转移到 Trello。&lt;/p&gt;
+
+&lt;p&gt;但即使如此，莫名还是蛮喜欢它的看板和卡片。以及简约的界面风格。不是协同没法玩转么，那也可以玩别的。Yixuan 先前分享自己的使用经验，是将 Trello 作为灵感收集器来用，就是一个蛮好的主意。印象中 Anti 老师是将它当作卡片来记笔记的，也是一个思路，这个先前我也尝试过，还不赖。&lt;/p&gt;
+
+&lt;p&gt;至于说这一次，前些天刚把 Trello 重拾起来，碰上去旅行，便尝试一下把 Trello 作为旅行规划工具，顺便瞧瞧效果如何。&lt;/p&gt;
+
+&lt;p&gt;就规划来说，Trello 能起的作用算轻度的，用纸笔或卡片也能替代——就像往日我做旅行规划时所做的。旅行规划最重要的靠谱的目的地和路线，靠的还是在网络中搜索和发掘。一次愉快旅行的先期准备就需要自己耐心和判断力来保驾护航了。&lt;/p&gt;
+
+&lt;p&gt;这次的目的地是南京。查找攻略和推荐之类的内容，可以通过旅游网站或知乎一类的问答网站来获取到不少有价值的信息。&lt;/p&gt;
+
+&lt;p&gt;现在是比以前方便得太多，早先只有纸质地图可以依靠不说，连攻略也远不像现在有诸多的旅游类网站和应用汇聚的大量内容可以挖掘，出行有不小的成分是撞运。那时旅行，好的一点，踩坑多少不说，心态多半是更好一点。期待上也不像现在这般随着视野的开阔有些水涨船高的，更有耐性去面对折腾。&lt;/p&gt;
+
+&lt;p&gt;通过搜索和浏览找寻到的资料，最终统一用列表汇聚起来。边搜索，边确认，而后在地图上标记。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;搜索，使用 Google，以及知乎还有其它旅行站的搜索功能。&lt;/li&gt;
+  &lt;li&gt;确认，以知乎网友的推荐和大众点评的网友评论为主要参考（类似于看院线片多半要习惯性地参考一下豆瓣电影的影片评分）。&lt;/li&gt;
+  &lt;li&gt;地图标注。在确认好一个值得一去的地点后，将地点添加到列表离，并使用地图（高德地图 App 及网页版）标记具体的位置，方便后边查看整体的分布情况，给预订住处的事提供参考。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;略为枯燥的操作过程，信息不断被充实在列表与地图之上，一个城市的清晰样貌，以及依附其上的那些带着这个城市风格的风景与美食所在，也得以在视觉上构建出来。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://dreamofbook.qiniudn.com/GaodeMapNanjingTravel.PNG&quot; alt=&quot;GaodeMapNanjing&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;就归档来说，无非就是景点、美食的二分法。当然，为了查看方便，再增加一级，也就是地区区域的维度，将各个主要区域下的地方分开罗列。整体的概念有了，到时逛一片，就可以以点带面，顺带扫荡一片。实际旅行过程中，也是这样玩的，是便利不少。&lt;/p&gt;
+
+&lt;p&gt;攻略大致收罗好之后，根据地图上景点一类的分布，以及交通线路，尤其是地铁线的分布，选择一个合适的地方，找酒店预订。选择的主要原则是，近地铁站，近景点，以及舒适。&lt;/p&gt;
+
+&lt;p&gt;接下来就是将视觉化的内容也添加到 Trello 的看板上。&lt;/p&gt;
+
+&lt;p&gt;在 Trello 上我所新建的命名「Ithaka」的项目中，建立 4 个列表，一个是以区域为主题的「FoodMap」（吃货本性暴露），存放的卡片是以区域或核心景点为标题的卡片集，每张卡片下分列这个区域的景点与美食；第二个是自己日程表「Route」，以每一天的时间卡作为分割；第三个列表是主要的景点列表「Attractions」，一个景点一个锚子也就是一张 Trello 卡片；最后一个列表命名为小黑板，创建旅行相关的注意事项 Tips、Checklist 之类。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://dreamofbook.qiniudn.com/TravelWithTrelloWebBoardAndCardsReview.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;做具体的日程规划或调整时，就通过拖拽的方式，将相应的景点卡片移入「Route」列表对应的日期下面。而后，依照地图上的位置分布，结合公交线路（主要是地铁）规划好大致的路线，以游玩和探访的时间先后顺序排序。&lt;/p&gt;
+
+&lt;p&gt;时间区间以上午下午与夜间三分为好。不过间隔倒不必以附加相应时间戳的标题卡片来分隔了。毕竟哪怕是抱着刷卡的心去的，受制于体力和交通或胃口，一天所能抵达的地方也是有限的。&lt;/p&gt;
+
+&lt;p&gt;比如，逛到南京老门东那一片区域时，点击「FoodMap」一栏的相关条目，就可以大致了解这篇区域的可探索目标（当然，使用地图同理）：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://dreamofbook.qiniudn.com/TrelloIthakaTravelBoardStatusExample.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Trello 的看板在旅行时能给予自己的是灵活的安排和全面的考虑。在列表缩小的情况下，两列卡片集，当前的列表与相关的待探索条目可以同时展现，让人在纵览时能更有全局观，也便于做合理调整。&lt;/p&gt;
+
+&lt;p&gt;有些功能其实我没怎么用到，比如颜色标签 Labels，比如标签 Tags 和截止日一类。一方面，这次旅行更多借助于 Trello 的是宽松的规划方式，一开始就打算依照实际情况随时调整（当天开始游玩之前，做半天或这一整天的行程），不需要多复杂的考虑；另一方面，卡片集的层次结构扁平化，我更容易整理思绪，统筹全局地做安排。&lt;/p&gt;
+
+&lt;p&gt;旅行的那几天实践下来，Trello 搭配已经标注完成的地图，能很高效、不费劲地完成游览的安排——尤其是对我这种容易因为犹豫不决而消耗大量心神的人来说，这样视觉化的管理方式，将抽象的事物得以具象化，能让自己在选择时能更轻快一点。&lt;/p&gt;
+
+&lt;p&gt;运用于旅行规划，的确也算是 Trello 的一大妙用。&lt;/p&gt;
+
+</description>
+				<pubDate>Wed, 05 Apr 2017 00:00:00 +0800</pubDate>
+				<link>/blog/Make-a-Travel-Plan-With-Trello.html</link>
+				<guid isPermaLink="true">/blog/Make-a-Travel-Plan-With-Trello.html</guid>
+			</item>
+		
+			<item>
+				<title>一次追忆，我所经历的北京电影节</title>
+				<description>&lt;p&gt;新一年的北京国际电影节又进入倒计时了。&lt;/p&gt;
+
+&lt;p&gt;这于我，是期待已久的事。对我这种无趣的人来说，电影节是待在北京能遇上的最有意思的几个活动之一了。&lt;/p&gt;
+
+&lt;p&gt;趁着这个电影节的来临。回忆一下去年的电影节观影经历。
+去年一开始也没怎么留意电影节，忙乱了一阵也了无生趣。等后边自己寻思着最好也找几部电影，当是参与也好，是认真观摩几部好作品也好，也该找几部。于是赶了一个尾巴，在差不多被预订一空的片单里，找到部相对冷门（当然，可以当我瞎说的）我又很感兴趣的电影节电影订了余票。观影的体验，相比日常去看院线片真要好很多。至于最多的，是感动吧。&lt;/p&gt;
+
+&lt;p&gt;（电影节的电影票剪影。未检票的那张是观影时到了才发现忘带了，心怀忐忑地找工作人员说明情况。结果稍一解释就放行了，感激。而我留下了一张未剪而看过的电影票）&lt;/p&gt;
+
+&lt;p&gt;去年的影片印象很深，有三部是集中在地处市区之外偏远的中间影院看的，一部是塔可夫斯基的《飞向太空》，一部是格里菲斯的神作《党同伐异》，第三部则是森田芳光导演执导的宛如阿修罗。&lt;/p&gt;
+
+&lt;p&gt;（某天早早下班乘公交追着西斜的太阳赶到中间影院时的掠影）&lt;/p&gt;
+
+&lt;p&gt;第四部是单独去奥森公园附近的科技馆影院看的小津导演的《晚春》。&lt;/p&gt;
+
+&lt;p&gt;一部一部说过来吧。&lt;/p&gt;
+
+&lt;p&gt;说起来，塔可夫斯基的这部冗长的关于太空生活的电影之前就看过了，最初印象深刻的是诡异的叙事和绝美的女主角。选这部电影的时候没多想，纯粹是致敬一下大师，再看一遍。结果那次是修复并放映了当年的胶片版。这是长大以来第一回在影院里看胶片电影，跃动的光条细纹斑驳闪烁，我沉到座位里，沉到那个遥远国度的小屋，那场雨季里。&lt;/p&gt;
+
+&lt;p&gt;格里菲斯导演的《党同伐异》（1916 年上映）在影院看非常震撼，应该算是那次看的四部中最让人感怀的一部电影了。感怀什么呢？电影的魔力啊。这是只有在这偌大的屏幕中不断变幻的画面才能拥有的，来自光影带来的莫大触动。&lt;/p&gt;
+
+&lt;p&gt;经历过才能明白，欣赏这样一部上映于一个世纪前，长达三个小时的默片能够闪耀出多灿烂的光芒，和浑厚又沉重的力道，百年之后还能不偏不倚击中人的心上，一百年能改变多少东西，看着那块银幕，一百年前的人们是带着怎样复杂的目光去注视的呢？不会有比这更直接有利的让人去热爱电影的布道了。&lt;/p&gt;
+
+&lt;p&gt;同样带来莫大惊喜的是另一部在中间影院那儿放映的《宛如阿修罗》。去年是森田导演诞辰 65 周年，电影节办了他的映像回顾展，他各个时期的作品，包括商业片《像那一样的东西》，他的成名作《家庭游戏》，还有夏目漱石小说改编的作品《其后》和渡边淳一的同名小说改编，题材惹眼的《失乐园》。&lt;/p&gt;
+
+&lt;p&gt;当然，对于时机不对只能拣漏的我来说，热门就不能太指望了。最后目光落在了这个热爱改编文学作品的导演执导的另一部同名小说改编的作品《宛如阿修罗》，搜到发现还有几张余票哪怕位子很偏很偏，看时间合适也还是订了。&lt;/p&gt;
+
+&lt;p&gt;作为我看的森田导演的第一部电影，能与一群影迷一块，在影院看这样一部佳片真是幸福。《宛如阿修罗》的主要剧情是一家四姐妹以及她们的家人的故事，关系错综复杂，森田处理的轻盈而灵动，没有平面人物，即使聚焦的只是这么一大家子人的生活，每个人都怀着一堆理不顺的心思心事前进又交织在一块，镜头内外无非是这样那样的悄悄话，私下聚会，家常事，但从头到尾也毫不滞闷。&lt;/p&gt;
+
+&lt;p&gt;在一部拥有自己的灵魂的作品面前，原来根本不用去谈格局讲章法，它只是那么自然地呈现出自己的模样，那些演员在影片里演的似乎就是自己，真实，在琐碎又温柔的冲突、争执和和解中，一不小心就把作为观众的自己也牵扯进去，融入进去。这是属于自己的故事，哪怕离那个中年还看着遥远，哪怕，自己也从未经历过与兄弟姐妹的生活。&lt;/p&gt;
+
+&lt;p&gt;每一个人，最初都是孩子，一路也在成长，改变，有自己的心事埋藏在心里的秘密，还有扯不断甩不开也丢不掉的羁绊。电影里外的人，都没有什么差别。无疑，这也是一部令人羁绊的电影。对于小津导演的作品，觉得还蛮亲切的，尤其早先就看过《东京物语》。其中的情感依旧是一脉相承的，爱是很难去诉说的，之所以难言，有时反倒是因为爱，还有依恋的存在的关系。&lt;/p&gt;
+
+&lt;p&gt;从影片中那个看似平凡的女孩身上也能感受得到，原节子的演技用光辉夺目来说也不为过。对于一位父亲来说，能拥有这样一个乖巧又韧性十足的女儿，想必也是异常值得欣慰乃至骄傲的——一如笠智众所饰演的那位父亲所感受到的那样。而他能做并且所做的最好的事就是为了成全女儿而默默割舍，宁愿孤独。很少有电影会这样不经意地传递深沉的爱的同时，也传递出深刻的孤独，毫不可耻的孤独，乃至光荣的孤独。家人啊，真是无法理解的存在吧，可是擦眼角的泪痕的时候，分明是明白的。&lt;/p&gt;
+
+&lt;p&gt;（科技馆外的小树林）&lt;/p&gt;
+
+&lt;p&gt;回想起来，真是一个美好的四月天，哪怕仅仅是因为电影的关系，一个影迷的慢拍子的追寻。&lt;/p&gt;
+</description>
+				<pubDate>Fri, 31 Mar 2017 00:00:00 +0800</pubDate>
+				<link>/blog/Memories-of-BJIFF-2016.html</link>
+				<guid isPermaLink="true">/blog/Memories-of-BJIFF-2016.html</guid>
+			</item>
+		
+			<item>
+				<title>电影节抢票指南</title>
+				<description>&lt;p&gt;电影节的美好之处在于，在持续小半月的影展中，会有很多部影片放映。包括中国或海外的新片，以及更值得期待的那些少见的影片，包括胶片修复放映的老片，不会在日常时间登陆院线的大师经典，或因为种种原因不可能在院线放映的作品。&lt;/p&gt;
+
+&lt;p&gt;互联网络以及智能电视乃至智能手机的发展，的确让大家都能足不出户就很低成本地获取浩如烟海的影片资源。可即使这样，现在还是越来越多的人往电影院里跑，作为消费的一种形式，愿意花钱去购买这样的服务，说明影院还是有存在感的，大屏幕、高清的片源、更好的音响系统等都是毋庸置疑的优势。&lt;/p&gt;
+
+&lt;p&gt;电影节的好处或许还能加上一个，观众的素质也整体高不少。院线里的北影节专场放映厅基本也等同于影迷的专场了。&lt;/p&gt;
+
+&lt;p&gt;去年北影节的影片，看的不多，当然就一个业余影迷来说，也不算少，4 部。主要是等我反应过来去买票的时候多数热门票都没了。幸运在于，有那么几部我中意的冷门片还没被抢空，就顺手订票去看了，最后还真不少喜出望外。&lt;/p&gt;
+
+&lt;p&gt;说回订票的事，相信经历过电影节的人也多半会对订电影票的事印象深刻。诸多电影都是在开票后相关院线的订座当即飘红一片。热门一点的电影，三五个不同时段和影院的票过不了一刻钟便鸣金收兵的场面也不稀罕。&lt;/p&gt;
+
+&lt;p&gt;那要如何在这一番热闹中，订到自己心仪的电影看呢？这事，也讲究一点排兵布阵。&lt;/p&gt;
+
+&lt;p&gt;但凡看电影，总有一个选择，这样一部电影值得看与否，首先得过这一关。&lt;/p&gt;
+
+&lt;p&gt;但不同往日的是，对一个在两周里展映上千部电影的电影节来说，选喜欢的电影隐含的一个前提是你得知道都有哪些电影会放映。因而，必要的功课还是得做的。&lt;/p&gt;
+
+&lt;p&gt;首先要看片单。不想错过好电影，就先浏览电影节官方公布出的片单，结合豆瓣电影的资料库，再加上一些影评人或机构的推荐，就可以对电影节上自己可以狩猎的电影，有清晰的概念了。这时，有必要的话，可以做一个排序，将影片由想看的强烈程度来大致排序，从最想看的影片开始找电影节的相关放映信息。&lt;/p&gt;
+
+&lt;p&gt;这时，我们多半得面临取舍的问题。取舍涉及到时间（放映时间）与空间（电影院位置）两方面。通过电影清单，在购票网站或应用中（一般是微信的电影票或格瓦拉承接电影节票务，今年也不例外）上开始检索和确认。多数人在电影节举办的日常里，整个白天都还是被工作所羁绊着的。这就必须考虑与自己心意相符的影片，放映时间是否合适。周末时间的支配相对好说一点，当然这也会带来一个问题——如果没有特别的时间门槛，那么对于大家来说，也多半会是首选，这时候基本是无关电影院远近的，除非真是太过偏远，而自己也没有为了想看的电影而跋涉一下的觉悟。&lt;/p&gt;
+
+&lt;p&gt;选片的最好的情况是，影片的放映，不在周末，而是放在工作日晚间，且电影院的位置离自己办公地点也不太远的。不然，你就得估量一下电影院的位置远近，衡量一下是否有足够的时间赶场赴约了。这是需要工作的无奈之处。&lt;/p&gt;
+
+&lt;p&gt;一番取舍之后，把时间上适合的每部想看的影片，最重要的信息，包括影院，放映日期和时间段，添加到清单里对应的影片条目上，方便后边按图索骥。在做这一步的同时，把搜索和确认时最合适看的那些影片用应用的收藏功能收藏起来，帮边到时开票了的时候快速访问。&lt;/p&gt;
+
+&lt;p&gt;等开票了，就立马动手。从最想看的里把最热门的抢起来，再去抢次热门和冷门的。购票流程上说，记得登录购票的网站或应用，记得看清影片放映的场次。&lt;/p&gt;
+
+&lt;p&gt;选座的纠结。订票的时候，现在都是选座订票。有些人喜欢坐后排，不管是出于将银幕尽收眼底也好，还是以为自己坐后排能享受得更多的优质体验。对于电影节来说，首先希望能保证的也是能看到，其次是也希望观影效果好一点。前排中间的位置算得上是观影的黄金座，从个人的体验来说，首选前 5 排正中位置，如果能接受，前三排的正中位置更好。可能会有人看不全屏幕，或是需要昂起头观看，很能治疗腰椎病。&lt;/p&gt;
+
+</description>
+				<pubDate>Fri, 31 Mar 2017 00:00:00 +0800</pubDate>
+				<link>/blog/How-To-Order-the-Tickets-You-Liked.html</link>
+				<guid isPermaLink="true">/blog/How-To-Order-the-Tickets-You-Liked.html</guid>
+			</item>
+		
+			<item>
+				<title>两份来自今日的礼物</title>
+				<description>&lt;p&gt;今天收到两份礼物，一份是自己送给自己的，一份是朋友送给自己的。&lt;/p&gt;
+
+&lt;p&gt;开头，今天对我来说，准确点是一个到了凌晨四点才睡的日子，起因是脑海中徘徊不去的一个想法。这一次难得的旅行，希望给从小到大几乎没存下多少相片的家伙攒几张像样的相片。也不单单是作为回忆的依凭吧。更多的还是希望，捕捉下一点青春年华的当下，多么珍贵的时光。iPhone 的相机，当然一直以来都素质不坏，可设备的差异决定了，对于手机来说，相片质感的鸿沟依然没法轻易的以各种黑科技的堆砌来横越而过，追赶得上哪怕是卡片机…真想为她拍几张能经得住时间考验的相片啊。&lt;/p&gt;
+
+&lt;p&gt;此外，在手机拍了几年照片之后，打算手机之外的工具来拍，扩展一下自己的行动边界。那这时，单反当然是一个合理的目标了吧。&lt;/p&gt;
+
+&lt;p&gt;然后就在后半夜里开始四下探索，从我心目中知名的导购站开始，随着 Google 的站点加关键词搜索，及知乎下的话题展开，最后锁定了入门级的 Nikon D3300 单反套机。一番确认后，已经都到了输入支付密码的时候，忽然停了肋下，抛开了一堆推荐，我回想起刚看参数时的重量，接近三斤，和一台 Apple 的笔记本有的一拼了。因为整天背了一个 MacBook Air 上下班的关系，现在要让我背一个差不多重量的东西在各处景点流窜，还真是一个纠结的事情。&lt;/p&gt;
+
+&lt;p&gt;一纠结，事情又开始没完没了了，凌晨两点多开始翻更多的问答和帖子。后边又提取到了一个关键词，微单，来自 Sony 的 A6000 在一番浏览之后进入了我的视野。相比起上周六那会随意看的时候，起了购买意图但翻了相机镜头测评站 (DxOMark)[https://www.dxomark.com/] 的评测结果，又将想法打入冷宫的黑卡系列来说，A6000 真算一个素质不赖的家伙。价格上，虽然起起伏伏现在这一阵反倒比去年还贵，也能接受。&lt;/p&gt;
+
+&lt;p&gt;颜色方面，最终选择了经典的黑色款。一番找寻确认，想明了下决定到最后下单的时候，都三点半点了。不过一切搞定，虽然所费不菲，却真算松了一口气。&lt;/p&gt;
+
+&lt;p&gt;快递给力地在今天傍晚就把相机送达。不过存储卡我另外购买了，得明天才能到，得到时再装配。晚间回去，就把玩了一下，整体使用也算满意。&lt;/p&gt;
+
+&lt;p&gt;希望以后能用这台小黑，拍更多好相片啦。嗯，按两万下快门~&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://dreamofbook.qiniudn.com/SonyCameraA600P1.jpg&quot; alt=&quot;SonyCameraA600&quot; /&gt;
+&lt;img src=&quot;http://dreamofbook.qiniudn.com/SonyCameraA600P2.jpg&quot; alt=&quot;SonyCameraA600&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;此外，今天早晨的时候还收到了来自丽芳寄来的豆瓣电影日历，黑色外壳黑色封面的豆瓣日历，和 A6000 颜色相得益彰。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://dreamofbook.qiniudn.com/DoubanFilmsCalP2.jpg&quot; alt=&quot;DoubanFilmsCal&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;在这一年的四分之一将近的日子，收到那册崭新的，一页未揭的日历还真是百感交集啊。其实上周末的时候也想到这事来着，不过那会思虑的是她好像上周一周得没动静的样子，是不是忘了我先前和她说的。本来日历在年前就能拿到手的，不过先前几月，一直没碰面，后边开始工作了也各自忙活，我也是不急切，只是早先的时候让她拍了几张相片我整理了 po 了一下。不过么，毕竟是日历，真要不用也不成，毕竟日子是拿来过的，日历也总得用起来。&lt;/p&gt;
+
+&lt;p&gt;翻到日历上的今天，正好还是梵高的生日。真巧。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://dreamofbook.qiniudn.com/DoubanFilmsCalP1.jpg&quot; alt=&quot;DoubanFilmsCal&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;之前的日子，留点空闲的时间，一页页揭吧。先把当下过下去。&lt;/p&gt;
+
+</description>
+				<pubDate>Thu, 30 Mar 2017 00:00:00 +0800</pubDate>
+				<link>/blog/Two-Presents-of-Today.html</link>
+				<guid isPermaLink="true">/blog/Two-Presents-of-Today.html</guid>
+			</item>
+		
+			<item>
+				<title>JavaScript 概念入门</title>
+				<description>&lt;h2 id=&quot;概述&quot;&gt;概述&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;网景公司 1995 年发布 JavaScript;&lt;/li&gt;
+  &lt;li&gt;ECMAScript（European Computer Manufacturers Association）是一种语言标准，而 JavaScript 是网景公司对该标准的实现方式。最新的 ES6 发布于 2015 年 6 月。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;JavaScript 能直接嵌入在网页任何地方，但通常放在网页的 &amp;lt;head&amp;gt; 中，由 &lt;script&gt;&lt;/script&gt; 包裹，能被浏览器直接执行。它也可以放在单独 .js 文件，通过 &lt;script src=&quot;...&quot;&gt;&lt;/script&gt; 引入。&lt;/p&gt;
+
+&lt;p&gt;编写 JavaScript：使用诸如 Sublime Text 一类的编辑器。
+运行：要让浏览器运行代码，需先有一个 HTML 页面，在浏览器中加载引入了 JavaScript 代码的页面，就可以执行代码。最初的学习阶段，不用管开发环境搭建的问题，直接在浏览器，比如 Chrome 提供的 Develop Tool 下的 控制台（Console）就可以运行程序代码了。&lt;/p&gt;
+
+&lt;h3 id=&quot;基本语法&quot;&gt;基本语法&lt;/h3&gt;
+
+&lt;p&gt;JavaScript 的每个语句以&lt;code class=&quot;highlighter-rouge&quot;&gt; ；&lt;/code&gt;结束，语句块以&lt;code class=&quot;highlighter-rouge&quot;&gt;{…}&lt;/code&gt;来囊括。&lt;/p&gt;
+
+&lt;p&gt;赋值方式 &lt;code class=&quot;highlighter-rouge&quot;&gt;var = xx；&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;语句块中的语句缩进 4 空格，这不是 JavaScript 语法要求的，但可以让语法更直观易读。语句块的语句可以嵌套，形成层级结构。&lt;/p&gt;
+
+&lt;p&gt;语法的注释方式是将 &lt;code class=&quot;highlighter-rouge&quot;&gt;//&lt;/code&gt; 放一行的开头，并在行末用同样的符号收尾。另一种注释方式是 &lt;code class=&quot;highlighter-rouge&quot;&gt;/*…*/&lt;/code&gt; 包裹语句块或行。&lt;/p&gt;
+
+&lt;h3 id=&quot;data-type-数据类型&quot;&gt;Data Type 数据类型&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Number&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;整数&lt;/li&gt;
+  &lt;li&gt;浮点数 0.42&lt;/li&gt;
+  &lt;li&gt;科学计数法 3.14e&lt;/li&gt;
+  &lt;li&gt;负数&lt;/li&gt;
+  &lt;li&gt;NaN Not a Number 当无法计算结果时的表达方式&lt;/li&gt;
+  &lt;li&gt;Infinity 超过 JavaScript 的数值能表达的最大值，用 Infinity 来表示无限大&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Number 可以直接做基本的四则运算。（加 + 减 - 乘* 除 / 取余 %）&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;字符串&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;使用单引号或双引号括起的任意文本&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;布尔值&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;一个布尔值只有 true 或 false 两种表达。布尔值常用于条件判断中。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2 &amp;gt; 1; // true  
+42 &amp;gt;= 43 // false  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;在 &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;amp;&amp;amp;&lt;/code&gt; （与）运算作判断时，只有相关条件都满足，运算结果才为 &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt;。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;true &amp;amp;&amp;amp; true // ture  
+true &amp;amp;&amp;amp; false // false
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;在 &lt;code class=&quot;highlighter-rouge&quot;&gt;||&lt;/code&gt; （或）运算时，只要满足一个条件为正确，输出即为 &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt;。
+在 &lt;code class=&quot;highlighter-rouge&quot;&gt;!&lt;/code&gt; （非）运算时，原有的结果互相转换，&lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; 变成 &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt;，反之亦然。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;比较运算符&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;在对 Number 做比较时，可以通过比较运算符获得布尔值，除此之外，JavaScript 也可以比较任意数据类型。（&lt;code class=&quot;highlighter-rouge&quot;&gt;===&lt;/code&gt; 会比较数据类型，而 &lt;code class=&quot;highlighter-rouge&quot;&gt;==&lt;/code&gt; 在比较时会转换数据类型，导致一些错误结果，这是 JavaScript 设计的问题。）&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;false == 0; //  true
+false ===0; //  false
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Nan&lt;/code&gt; 的判断方式，在比较时，它不与任何值相等，包括自身。唯一能判断的方式是用 &lt;code class=&quot;highlighter-rouge&quot;&gt;isNaN()&lt;/code&gt; 函数。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;isNaN(NaN); // true
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;浮点数的相等比较，浮点数在运算过程中会产生误差，计算机无法精确表示无限循环小数。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1 / 3 === (1 - 2 / 3); // false
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;要比较两个浮点数是否相等，只能计算它们之差的绝对值，看是否小于某个阈值：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Math.abs(1 / 3 - (1 - 2 / 3)) &amp;lt; 0.0000001; // true
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;null 和 undefined&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;null&lt;/code&gt; 表示空值。与 0 或 &lt;code class=&quot;highlighter-rouge&quot;&gt;''&lt;/code&gt; 空字符串不同。0 为数值，&lt;code class=&quot;highlighter-rouge&quot;&gt;''&lt;/code&gt; 表示长度为零的字符串，&lt;code class=&quot;highlighter-rouge&quot;&gt;null&lt;/code&gt; 表示为「空」。JavaScript 下还有一个类似的 &lt;code class=&quot;highlighter-rouge&quot;&gt;undefined&lt;/code&gt;，表示为「未定义」。一般区分两者的意义不大，多数情况下使用前者，仅在判断函数参数是否传递时，用 &lt;code class=&quot;highlighter-rouge&quot;&gt;undefined&lt;/code&gt;。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Array 数组&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;数组是一组按顺序排列的集合，用 &lt;code class=&quot;highlighter-rouge&quot;&gt;[]&lt;/code&gt; 表示，其中的每个值称为元素，以 &lt;code class=&quot;highlighter-rouge&quot;&gt;,&lt;/code&gt; 分隔。JavaScript 的数组可以包含任意数据类型。另一种创建数组的方式是通过 &lt;code class=&quot;highlighter-rouge&quot;&gt;Array()&lt;/code&gt; 函数来实现：&lt;code class=&quot;highlighter-rouge&quot;&gt;new Array(1, 2, 4);&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;数组的元素可以通过索引来访问，索引的起始值为 0。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Object 对象&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;对象是由一组由键-值组成的无需集合。对象的键都是字符串类型，值，或者说对象的属性，可以是任意数据类型。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var person = {
+    name: 'Andy' ,
+    age: 24,
+    tages: ['js', 'python'],
+};
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;对象属性，用 &lt;code class=&quot;highlighter-rouge&quot;&gt;object.property_name&lt;/code&gt; 的方式来获取。类似，&lt;code class=&quot;highlighter-rouge&quot;&gt;person.name&lt;/code&gt;。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;变量&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;变量不止是数字，也可以是任意数据类型。变量名是英文（包括大小写）、数字、「$」和「_」的组合。但组合时开头不用用数字，变量名也不能是 JavaScript 的关键字，如「if」、「while」等&lt;/p&gt;
+
+&lt;p&gt;在语法中，使用等号 &lt;code class=&quot;highlighter-rouge&quot;&gt;=&lt;/code&gt; 对变量赋值，可以是任意数据类型。同一变量可以反复赋值（这种变量本身类型不固定的语言称之为动态语言，与之对应的是静态语言。），且可为不同类型，但只能用 &lt;code class=&quot;highlighter-rouge&quot;&gt;var&lt;/code&gt; 申明一次。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var a = 42; // Number  
+a = “ABC” // 字符串  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Strict 模式&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;如果某一变量没有通过 &lt;code class=&quot;highlighter-rouge&quot;&gt;var&lt;/code&gt; 申明就被使用，那么该变量就自动被申明为全局变量。而使用了 &lt;code class=&quot;highlighter-rouge&quot;&gt;var&lt;/code&gt; 申明的变量则不是全局变量，它的范围被限制在该变量被申明的函数中，同名变量在不同函数中互不冲突。&lt;/p&gt;
+
+&lt;p&gt;因为早期 JavaScript 在设计时并不强制要求使用 &lt;code class=&quot;highlighter-rouge&quot;&gt;var&lt;/code&gt;，后来为修补这一缺陷，ECMA 在后续规范中推出了 &lt;code class=&quot;highlighter-rouge&quot;&gt;strict&lt;/code&gt; 模式。启用的方式是，在 JavaScript 代码的首行中标注上 &lt;code class=&quot;highlighter-rouge&quot;&gt;'use strict';&lt;/code&gt; 这样一段字符串。当它运行时，会强制通过 &lt;code class=&quot;highlighter-rouge&quot;&gt;var&lt;/code&gt; 申明变量，未使用就使用的话，将导致运行错误。&lt;/p&gt;
+
+&lt;h3 id=&quot;string-字符串&quot;&gt;String 字符串&lt;/h3&gt;
+
+&lt;p&gt;字符串使用 &lt;code class=&quot;highlighter-rouge&quot;&gt;''&lt;/code&gt; 或 &lt;code class=&quot;highlighter-rouge&quot;&gt;”&quot;&lt;/code&gt; 括起的字符表示。如「’」本身就是字符，可以用双引号括起。如果也包含双引号，则使用转义符&lt;code class=&quot;highlighter-rouge&quot;&gt;\&lt;/code&gt; 标识。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;‘I'm &quot;OK”;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;转义符的用途，&lt;code class=&quot;highlighter-rouge&quot;&gt;\n&lt;/code&gt; 表示换行，&lt;code class=&quot;highlighter-rouge&quot;&gt;\t&lt;/code&gt; 表示制表符，如果「\」本身也要转义，则用 &lt;code class=&quot;highlighter-rouge&quot;&gt;\\&lt;/code&gt; 表示。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;多行字符串&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;一般以 &lt;code class=&quot;highlighter-rouge&quot;&gt;\n&lt;/code&gt; 书写，因为费事，最新的 ES6 新增使用反引号 `…` 的多行字符串表示法。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;模板字符串&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;多个字符串使用 &lt;code class=&quot;highlighter-rouge&quot;&gt;+&lt;/code&gt; 连接。ES6 新增了一种模板字符串，使用方法类似多行字符串，但它会自动替换字符串变量。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;操作字符串&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;常见的字符串操作：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var word =  &quot;Hello,world!&quot;;  
+var.length;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;获取字符串某指定位置的字符（注意索引从 0 开始）。字符串是不可变的，不能通过索引的方式去重新赋值，虽然那样做不会报错。&lt;/p&gt;
+
+&lt;p&gt;字符串操作：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;toUpperCase()&lt;/code&gt; 将一个字符串全部变为大写；&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;toLowerCase()&lt;/code&gt; 全部变为小写；&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;indexOf()&lt;/code&gt;  搜索特定字符串出现位置；&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;substring()&lt;/code&gt; 返回指定索引区间的子串；&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;array-数组&quot;&gt;Array 数组&lt;/h3&gt;
+
+&lt;p&gt;Array 可以包含任意数据类型，并通过索引来访问每个元素。&lt;/p&gt;
+
+&lt;p&gt;使用 &lt;code class=&quot;highlighter-rouge&quot;&gt;length&lt;/code&gt; 属性可获取 &lt;code class=&quot;highlighter-rouge&quot;&gt;Array&lt;/code&gt; 长度。如果直接给 &lt;code class=&quot;highlighter-rouge&quot;&gt;Array&lt;/code&gt; 的 &lt;code class=&quot;highlighter-rouge&quot;&gt;length&lt;/code&gt; 赋新值，会导致其大小变化。可以通过索引将对应的元素修改为新值。而当赋值时索引超出范围，&lt;code class=&quot;highlighter-rouge&quot;&gt;Array&lt;/code&gt; 大小依然会变化。只不过 JavaScript 不会报错。编写代码时，不建议直接修改 Array 大小，访问索引时确保索引不超范围。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;indexOf&lt;/code&gt; 用于搜索 &lt;code class=&quot;highlighter-rouge&quot;&gt;Array&lt;/code&gt; 中指定元素的位置；&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;slice&lt;/code&gt; 对应 String 的 &lt;code class=&quot;highlighter-rouge&quot;&gt;substring&lt;/code&gt; 的的版本，截取元素并返回新的 &lt;code class=&quot;highlighter-rouge&quot;&gt;Array&lt;/code&gt;。&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;push&lt;/code&gt; &amp;amp; &lt;code class=&quot;highlighter-rouge&quot;&gt;pop&lt;/code&gt; 前者向&lt;code class=&quot;highlighter-rouge&quot;&gt;Array&lt;/code&gt; 的末端添加元素，后者则用于将最后一个元素移除掉。&lt;/li&gt;
+  &lt;li&gt;unshift &amp;amp; shift 前者，往 &lt;code class=&quot;highlighter-rouge&quot;&gt;Array&lt;/code&gt; 头部添加元素，后者则是移除同位置的元素；&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sort&lt;/code&gt; 排序。直接调用，按照默认顺序进行排序；&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;reverse&lt;/code&gt; 反转元素；&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;splice&lt;/code&gt; 从指定索引删除元素，再从该位置开始添加元素；&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;concat&lt;/code&gt; 将当前 &lt;code class=&quot;highlighter-rouge&quot;&gt;Array&lt;/code&gt; 与另一个 &lt;code class=&quot;highlighter-rouge&quot;&gt;Array&lt;/code&gt; 连接，并返回一个新的；&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;join&lt;/code&gt; 将当前 &lt;code class=&quot;highlighter-rouge&quot;&gt;Array&lt;/code&gt; 的元素用指定字符串连起来，返回连接后的字符串；&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Array&lt;/code&gt; 可以是多层嵌套的，即 &lt;code class=&quot;highlighter-rouge&quot;&gt;Array&lt;/code&gt; 可以囊括其它的 &lt;code class=&quot;highlighter-rouge&quot;&gt;Array&lt;/code&gt;。&lt;/p&gt;
+
+&lt;h3 id=&quot;对象-object&quot;&gt;对象 Object&lt;/h3&gt;
+
+&lt;p&gt;JavaScript 的对象是无序集合数据类型，由若干键值构成。对象用于描述现实中的某对象。对象用 &lt;code class=&quot;highlighter-rouge&quot;&gt;{…}&lt;/code&gt; 表示，键值则以 &lt;code class=&quot;highlighter-rouge&quot;&gt;xxx: xxx&lt;/code&gt; 的形式申明，各个键值以 &lt;code class=&quot;highlighter-rouge&quot;&gt;,&lt;/code&gt; 间隔，最后一个键值末尾不需添加。&lt;/p&gt;
+
+&lt;p&gt;通过对象和属性名获取属性的方法：&lt;code class=&quot;highlighter-rouge&quot;&gt;objectName.propertyName&lt;/code&gt;。访问属性通过 &lt;code class=&quot;highlighter-rouge&quot;&gt;.&lt;/code&gt; 操作符完成。属性名称如包含特殊字符，必须用 &lt;code class=&quot;highlighter-rouge&quot;&gt;''&lt;/code&gt; 括起。因为 JavaScript 的对象是动态类型，可以自由地为对象添加和删除属性。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;objectName.propertyName = xxx;
+delete &lt;code class=&quot;highlighter-rouge&quot;&gt;objectName.propertyName&lt;/code&gt;;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;使用 &lt;code class=&quot;highlighter-rouge&quot;&gt;in&lt;/code&gt; 可以监测某个对象是否拥有某一属性。&lt;code class=&quot;highlighter-rouge&quot;&gt;in&lt;/code&gt; 判断属性存在，属性不一定属于该对象，也可能是该对象继承得来的。（&lt;code class=&quot;highlighter-rouge&quot;&gt;toString&lt;/code&gt; 的例子）判断某以属性是否为对象自身拥有而非继承，可以用 &lt;code class=&quot;highlighter-rouge&quot;&gt;hasOwnProperty()&lt;/code&gt; 函数来确认。&lt;/p&gt;
+
+&lt;p&gt;objectName.hasOwnProperty(‘propertyName’);&lt;/p&gt;
+
+&lt;p&gt;书写代码的时候，属性名应尽量用标准变量名。&lt;/p&gt;
+
+&lt;h3 id=&quot;judgment-条件判断&quot;&gt;Judgment 条件判断&lt;/h3&gt;
+
+&lt;p&gt;条件判断的语句： if () {…} else {…} 。特点是执行时候二选一，如果某一条件成立，就不再继续判断。&lt;/p&gt;
+
+&lt;p&gt;如果语句块只包含一个语句，&lt;code class=&quot;highlighter-rouge&quot;&gt;{}&lt;/code&gt; 可以省略。不过这在实际操作中可能导致后续添加语句，遗忘了添加 &lt;code class=&quot;highlighter-rouge&quot;&gt;{}&lt;/code&gt;，判断语句也会出现问题。一般建议都写上。&lt;/p&gt;
+
+&lt;p&gt;多行判断&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;if …else…&lt;/code&gt; 组合使用。&lt;/p&gt;
+
+&lt;p&gt;if () {…}; else if () {…}; else {…};&lt;/p&gt;
+
+&lt;p&gt;条件判断的顺序很重要。&lt;/p&gt;
+
+&lt;p&gt;当 if 语句条件判断结果不是 &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; 或 &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; 时，JavaScript 如何判定。null、undefined、0、NaN 和空字符串都会被视为 &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt;，其他值一概视为 &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt;。&lt;/p&gt;
+
+&lt;h3 id=&quot;loop-循环&quot;&gt;Loop 循环&lt;/h3&gt;
+
+&lt;p&gt;循环&lt;/p&gt;
+
+&lt;p&gt;两种循环：&lt;code class=&quot;highlighter-rouge&quot;&gt;for&lt;/code&gt; 和 &lt;code class=&quot;highlighter-rouge&quot;&gt;while&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;for&lt;/code&gt; 循环，通过初始条件，结束条件和递增条件来循环执行语句块。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;for&lt;/code&gt; 循环最常用于利用索引来遍历数组。需要注意，&lt;code class=&quot;highlighter-rouge&quot;&gt;for&lt;/code&gt; 循环的 3 个条件都是可省略的，如无退出循环的判断条件，就必须用 &lt;code class=&quot;highlighter-rouge&quot;&gt;break&lt;/code&gt; 语句退出循环。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var x = 0;
+for (;;) { // 将无限循环下去
+    if (x &amp;gt; 100) {
+        break; // 通过if判断来退出循环
+    }
+    x ++;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;变体，&lt;code class=&quot;highlighter-rouge&quot;&gt;for…in&lt;/code&gt; 用于将一个对象所有属性依次循环出来（搭配 &lt;code class=&quot;highlighter-rouge&quot;&gt;hasOwnProperty()&lt;/code&gt; ，实现过滤掉对象继承的属性）。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var Andy = {
+
+ name: 'Andy',
+ birth: 1989,
+ school: 'Haining No.1 middle school',
+ height: 1.70, 
+ weight: 55,
+ score: null
+};
+
+for (var key in Andy) {
+ if (Andy.hasOwnProperty(key)) {
+ console.log(key);
+ }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;由于 &lt;code class=&quot;highlighter-rouge&quot;&gt;Array&lt;/code&gt; 也是对象，而它的元素的索引被视为对象的属性，因此，&lt;code class=&quot;highlighter-rouge&quot;&gt;for...in&lt;/code&gt; 循环可直接循环出 &lt;code class=&quot;highlighter-rouge&quot;&gt;Array&lt;/code&gt; 的索引。&lt;/p&gt;
+
+&lt;p&gt;while&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;while&lt;/code&gt; 循环只有一个判断条件，满足条件则不断循环，不满足时就退出。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;do...while&lt;/code&gt; 循环与 &lt;code class=&quot;highlighter-rouge&quot;&gt;while&lt;/code&gt; 循环唯一的区别在于，不是在每次循环开始时判断条件，而是在每次循环完成后进行判断。也因此，&lt;code class=&quot;highlighter-rouge&quot;&gt;do...while&lt;/code&gt; 循环至少会被执行依次，而 &lt;code class=&quot;highlighter-rouge&quot;&gt;for&lt;/code&gt; 和 &lt;code class=&quot;highlighter-rouge&quot;&gt;while&lt;/code&gt; 循环则可能一次都不执行。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var i = 0；
+do {
+   i = i + 1; 
+} while (n &amp;lt; 42);```
+console.log(n);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;map--set&quot;&gt;Map &amp;amp; Set&lt;/h2&gt;
+
+&lt;p&gt;JavaScript 的对象有个缺陷，对象的键必须为字符串，而现实的使用中整数或其它数据类型作为键也是合理的。由此，ES6 引入了新的数据类型 &lt;code class=&quot;highlighter-rouge&quot;&gt;Map&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Map&lt;/code&gt; 是一组键值对（key-value）的结构，对查找来说效率很高。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;`Map`: `var x = new Map();`  // 新建 
+x.set('key',value);  // 添加
+x.has('key'); // 查询是否存在
+x.get()  // 获取值
+x.delete() // 删除 key
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var m = new Map([[1, 'x'], [2, 'y'], [3, 'z']]);
+for (var x of m) { // 遍历Map
+    alert(x[0] + '=' + x[1]);
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;一个 key 只能对应一个值，设定新值会覆盖掉原值。&lt;/p&gt;
+
+&lt;p&gt;Set&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Set&lt;/code&gt; 与 &lt;code class=&quot;highlighter-rouge&quot;&gt;Map&lt;/code&gt; 类似，是一组 key 的集合，但不存储 Value。此外，由于 Key 不能重复，&lt;code class=&quot;highlighter-rouge&quot;&gt;Set&lt;/code&gt; 里没重复的 key。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var x = new Set(); // 空 Set
+x.add(); // 新增 key
+x.delete(); // 删除
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;iterable&quot;&gt;iterable&lt;/h3&gt;
+
+&lt;p&gt;ES6 新引入的 &lt;code class=&quot;highlighter-rouge&quot;&gt;Map&lt;/code&gt; 和 &lt;code class=&quot;highlighter-rouge&quot;&gt;Set&lt;/code&gt; 无法像 &lt;code class=&quot;highlighter-rouge&quot;&gt;Array&lt;/code&gt; 一样通过下标循环来循环。为统一集合类型，引入了 &lt;code class=&quot;highlighter-rouge&quot;&gt;iterable&lt;/code&gt; 类型，通用于 &lt;code class=&quot;highlighter-rouge&quot;&gt;Array&lt;/code&gt;、&lt;code class=&quot;highlighter-rouge&quot;&gt;Map&lt;/code&gt; 和 &lt;code class=&quot;highlighter-rouge&quot;&gt;Set&lt;/code&gt;。具备此类型的集合可通过同样是新引入的 &lt;code class=&quot;highlighter-rouge&quot;&gt;for … of&lt;/code&gt; 循环来遍历。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;for … of&lt;/code&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt; 与 &lt;/code&gt;for … in` 循环的区别。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;for … in&lt;/code&gt; 遍历的是对象属性名称，&lt;code class=&quot;highlighter-rouge&quot;&gt;Array&lt;/code&gt; 数组也被视作对象，它的每个索引被视为一个个属性。在操作时，为 &lt;code class=&quot;highlighter-rouge&quot;&gt;Array&lt;/code&gt; 对象添加额外属性后，使用 &lt;code class=&quot;highlighter-rouge&quot;&gt;for...in&lt;/code&gt; 循环会带来一个问题，循环会把 &lt;code class=&quot;highlighter-rouge&quot;&gt;name&lt;/code&gt; 包括在内，但 &lt;code class=&quot;highlighter-rouge&quot;&gt;Array&lt;/code&gt; 的 &lt;code class=&quot;highlighter-rouge&quot;&gt;length&lt;/code&gt; 属性却不会包括。&lt;code class=&quot;highlighter-rouge&quot;&gt;for...of&lt;/code&gt; 循环的引入修复了这些问题。它只循环集合本身的元素。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var a = ['A', 'B', 'C'];
+a.name = 'Hello';
+for (var x of a) {
+   console.log(x); 
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Array&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var a = ['A', 'B', 'C'];
+a.forEach(function (element, index, array) {
+    // element: 指向当前元素的值
+    // index: 指向当前索引
+    // array: 指向Array对象本身
+    alert(element);
+});
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Set&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var s = new Set(['A', 'B', 'C']);
+s.forEach(function (element, sameElement, set) {
+    alert(element);
+});
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Map&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var m = new Map([['Microsoft', 4200],['Facebook', 3200],['Snap', 240],['Twitter', 134]]);
+m.forEach(function (value, key, map) {console.log(value);});
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+				<pubDate>Wed, 29 Mar 2017 00:00:00 +0800</pubDate>
+				<link>/blog/JavaScript-Getting-Start-Basic-Concept-and-Knowledge.html</link>
+				<guid isPermaLink="true">/blog/JavaScript-Getting-Start-Basic-Concept-and-Knowledge.html</guid>
+			</item>
+		
+			<item>
+				<title>VPS 初相遇</title>
+				<description>&lt;h2 id=&quot;为什么使用-vps&quot;&gt;为什么使用 VPS&lt;/h2&gt;
+
+&lt;p&gt;其实购置 VPS 的念想是由来已久的。至于为何过去几年里最终都没动手，更多只能归结为懒…&lt;/p&gt;
+
+&lt;p&gt;VPS 的用途广泛，小到作为同步的云盘、小型博客，大到布局网站、下载站、应用服务托管等，都能顺应自如。至于说是什么促成了我这一回下单，更多是出于熟悉 Linux 服务器的操作，为后边捋顺从开发倒部署上线的整个流程打下一点基础。日常的话，也可以多一个除了 GitHub 之外的试验场。&lt;/p&gt;
+
+&lt;h2 id=&quot;vps-的选购&quot;&gt;VPS 的选购&lt;/h2&gt;
+
+&lt;p&gt;VPS 服务的网络服务商不少，按照自己的喜好和需求来即可。&lt;/p&gt;
+
+&lt;p&gt;就选购时的衡量来说，单纯自用也最好是满足两个条件，配置相对好（符合需求的前提），价格尽量低，听起来怎么像不给吃草还让疯跑的想法？但事实如此，稍微挑选一下，还是能找到合适的套餐的，合适就好。这次是选购了 &lt;a href=&quot;https://bandwagonhost.com&quot;&gt;Bandwagonhost&lt;/a&gt; 的。另外有一家 &lt;a href=&quot;https://www.vultr.com/&quot;&gt;Vultr&lt;/a&gt; 也不错。&lt;/p&gt;
+
+&lt;p&gt;国内的主机或弹性云计算服务器与这一类 VPS 类似，诸如阿里云、百度云或腾讯云都在提供相应的服务。就价格而言，国内的服务器售价更高，优势是服务器布局在中国，国内访问会更好。当然，就实际的使用我发现搬瓦工的网络还不赖，进行操控和传输，参数都很可观，甚至于用这个 VPS 搭建的私人 Shadowsocks 服务，自用体验也还可以。&lt;/p&gt;
+
+&lt;h2 id=&quot;初步配置&quot;&gt;初步配置&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;安装系统&lt;/li&gt;
+  &lt;li&gt;一键安装 Shadowsocks 服务&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这些操作其实没啥好说的，BandwagonHost 提供了很简明的操作面板，根据菜单的选项操作就能很容易完成系统的安装或切换。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://dreamofbook.qiniudn.com/BandwagonHostKiwiVMUIInstallOS.png&quot; alt=&quot;BandwagonHostKiwiVMUI&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;需要注意的一点是，一键安装 Shadowsokcs 服务，只支持 CentOS 6 的版本（默认安装的服务器操作系统也是这个），安装其它的版本或其它 Linux OS 一键安装服务会失效。至于选择什么操作系统，这事见仁见智。以前在个人电脑上安装的虚拟机或实体 Linux 系统一直都是 Ubuntu。但这次为了偷懒，直接可以不折腾就部署好 Shadowsocks 服务，就直接使用了以前从来没接触过的 CentOS，操作起来也还不赖。当然，没有图形界面，这个没办法，甚至都不好意思吐槽，毕竟各种操作，我想不出比命令行更方便的途径了…&lt;/p&gt;
+
+&lt;h2 id=&quot;ssh-登录-vps&quot;&gt;SSH 登录 VPS&lt;/h2&gt;
+
+&lt;p&gt;虽然搬瓦工提供了网页版的终端方便操作，当相比 macOS 下的 iTerm 来说，便利性还是相差太多了。通过 SSH 与 VPS 进行连接，能很大程度为 VPS 的操控提供便利——这样就又能使用 iTerm 和 zsh 一类的神器了。&lt;/p&gt;
+
+&lt;p&gt;初次使用 SSH 登录新购置的 VPS 时，耗了不少时间在登录命令上。这个跟头摔的有点猝不及防…&lt;/p&gt;
+
+&lt;p&gt;初翻了几篇教程，都没细说 SSH 登录的命令格式。自己找了一下，格式是这样：&lt;code class=&quot;highlighter-rouge&quot;&gt;ssh &amp;lt;username&amp;gt;@&amp;lt;Serverdomain/IP&amp;gt; -p &amp;lt;port&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;先前为了力求个性化，毕竟第一次购置 VPS，也是蛮值得纪念的一件事，便顺手将主机名(Hostname)改成了 stardust，一部我非常喜欢的小说的名字。然后，惯性使然，加之控制面板那边又的确是明确说了这是 Hostname，在使用 SSH 的时候我也就想当然地将自己新冠名的主机名作为 username 填上去了。接下来就是几个小时的僵持和我的好一阵烦躁…数次在控制面板修改 root password，数次试图通过切换 Linux 系统或版本来绕过一次次在用 SSH 链接时，输入密码确认，每一次都是错误（Permission denied），每累积三次错误就关闭 SSH 访问请求…购置 VPS，开启自己个人 Shadowsocks 服务的喜悦还没来得及在脸上舒展开就被这一阵折腾雨打风吹去…&lt;/p&gt;
+
+&lt;p&gt;隔了一晚，今天中午时再试，总想求得一个结果啊。这回长了心眼，重新审视了一下登录用的命令。后边再扩大关键词，搜索更多相关问答翻找了好多才在 V 站找到了破题点——&lt;a href=&quot;https://www.v2ex.com/t/224479&quot;&gt;《SSH 无法登陆， SFTP 正常 - V2EX》&lt;/a&gt;。实际上用户名对应位置应该填写的就是 root 而不是自己创建的 hostname，填 root 就是这么简单粗暴…&lt;/p&gt;
+
+&lt;p&gt;当然这个不同主机估计会有差异，这里只针对搬瓦工运营的 VPS。&lt;/p&gt;
+
+&lt;p&gt;改好之后就通过远程访问，确认密码后顺利进入系统…泪目。&lt;/p&gt;
+
+&lt;h2 id=&quot;为-vps-配置公共密钥&quot;&gt;为 VPS 配置公共密钥&lt;/h2&gt;
+
+&lt;p&gt;解决了 SSH 登录的问题，后边就主要看自己想怎么个瞎折腾了。估计网站博客应用什么的都会一点点玩起来。不过现在还是先解决一个日常访问主机时需要面对的问题。每次 SSH 都需要输控制面板随机生成的密码，输入麻烦不说，自己又记不住，在找密码复制粘贴中平白浪费不少功夫。&lt;/p&gt;
+
+&lt;p&gt;先前看的各种教程中有提及使用公共密钥免密码用 SSH 访问 VPS 的。就很来劲，id_rsa.pub 这个公共密钥老早在配置 Git 访问 GitHub 时就生成过，既然是现成的这就好办了，无非是将密钥上传到服务器对应的位置（以及修改一下命名），完成对应设定就好。&lt;/p&gt;
+
+&lt;p&gt;生成公共密钥的操作这里不赘述。主要讲一下密钥生成之后，将其添加到服务器的整个流程。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;SSH 登录，在 VPS 主目录下，&lt;code class=&quot;highlighter-rouge&quot;&gt;mkdir .ssh&lt;/code&gt; 创建一个 &lt;code class=&quot;highlighter-rouge&quot;&gt;.ssh&lt;/code&gt; 的隐藏目录，用于放置密钥；&lt;/li&gt;
+  &lt;li&gt;终端切换到本地的系统主目录，用 &lt;code class=&quot;highlighter-rouge&quot;&gt;scp&lt;/code&gt; 命令将生成好的公钥上传到 CentOS 的 &lt;code class=&quot;highlighter-rouge&quot;&gt;.ssh&lt;/code&gt; 目录下，并将公钥重命名为 authorized_keys：
+&lt;code class=&quot;highlighter-rouge&quot;&gt;scp -P Port_Number ~/.ssh/id_rsa.pub root@VPS_IP:~/.ssh/authorized_keys&lt;/code&gt;，确认密码后完成上传；&lt;/li&gt;
+  &lt;li&gt;修改服务器端文件与文件夹的权限：&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ chmod 700 ~/.ssh
+$ chmod 600 ~/.ssh/id_rsa 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;优化-vps-的登录&quot;&gt;优化 VPS 的登录&lt;/h2&gt;
+
+&lt;p&gt;通过 SSH 访问私人服务器，除却需要费劲输入主机名、端口和老长一串 IP，多少也是记忆上的负担。这时，可以使用 alias 来为登录用的 SSH 制作简单好记的短命令，方便登录。这里设定对应的短命令为 vps：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;alias vps=&quot;ssh -p 29240 root@138.128.205.122&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;设置完成后，进行部署使之生效：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;source ~/.bashrc
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;如果安装了 zsh 或 oh my zsh，则：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;source ~/.zshrc
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;设定生效之后，以后，打开 Termial，输入 vps 回车就可以直接 SSH 登录 VPS 开始玩耍了。&lt;/p&gt;
+
+&lt;h2 id=&quot;参考资料&quot;&gt;参考资料&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/24284566&quot;&gt;VPS 有什么有趣的用途？ - 知乎&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wiki.centos.org/HowTos/Network/SecuringSSH&quot;&gt;HowTos/Network/SecuringSSH - CentOS Wiki&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-ssh-configfiles.html&quot;&gt;17.5. OpenSSH Configuration Files&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<pubDate>Mon, 13 Mar 2017 00:00:00 +0800</pubDate>
+				<link>/blog/Start-With-My-First-VPS.html</link>
+				<guid isPermaLink="true">/blog/Start-With-My-First-VPS.html</guid>
+			</item>
+		
+	</channel>
+</rss>

@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="在遙遠的地方 一切虔誠終必相遇">
+
+    <title>Course Note of Codecademy Introduction To JavaScript - Microdust</title>
+
+    <link rel="canonical" href="http://localhost:4000/blog/Course-Notes-of-Codecademy-Introduction-to-JavaScript.html">
+
+    <!-- Icons -->
+  <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Microdust</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                
+                <li>
+                    <a href="/About.html">About</a>
+                </li>
+                
+                <li>
+                    <a href="/Tools.html">Tools</a>
+                </li>
+                
+                <li>
+                    <a href="/Travel.html">Travel</a>
+                </li>
+                
+                <li>
+                    <a href="/tags.html">Tags</a>
+                </li>
+                
+
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/fantasy.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="Tags">
+                        
+                        <a class="tag" href="/Tags/#Coding" title="Coding">Coding</a>
+                        
+                        <a class="tag" href="/Tags/#JavaScript" title="JavaScript">JavaScript</a>
+                        
+                    </div>
+                    <h1>Course Note of Codecademy Introduction To JavaScript</h1>
+                    
+                    <span class="meta">Posted by Azeril on April 9, 2017</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
+
+                <p>Note about Codecademy JavaScript Course <a href="https://www.codecademy.com/learn/learn-javascript">Introduction To JavaScript</a></p>
+
+<p>What can we use JavaScript for?</p>
+
+<ul>
+  <li>make websites respond to user interaction</li>
+  <li>build apps and games (e.g. blackjack)</li>
+  <li>access information on the Internet (e.g. find out the top trending words on Twitter by topic)</li>
+  <li>organize and present data (e.g. automate spreadsheet work; data visualization)</li>
+</ul>
+
+<h3 id="confirm-and-prompt">Confirm and prompt</h3>
+
+<ul>
+  <li>confirm <code class="highlighter-rouge">confirm(“words”);</code> Web action confirm</li>
+  <li>prompt <code class="highlighter-rouge">prompt();</code> Ask for input</li>
+</ul>
+
+<h3 id="data-types">Data Types</h3>
+
+<p>There are three essential data types in JavaScript: strings, numbers, and booleans.</p>
+
+<ul>
+  <li>a. numbers   (e.g. 4.3, 134)</li>
+  <li>b. strings (e.g. “dogs go woof!”, “JavaScript expert”)</li>
+  <li>c. booleans ~ A boolean is either true or false.  (e.g. false, 5 &gt; 4)</li>
+</ul>
+
+<h3 id="math">Math</h3>
+
+<ul>
+  <li>( ): control order of operations</li>
+  <li>
+    <ul>
+      <li>and /: multiplication and division</li>
+    </ul>
+  </li>
+  <li>
+    <ul>
+      <li>and +: subtraction and addition</li>
+    </ul>
+  </li>
+  <li>% modulo. ~ When % is placed between two numbers, the computer will divide the first number by the second, and then return the remainder of that division. ~ module it good at testing divisibility. 
+ We can use modulos in comparisons, like this: <code class="highlighter-rouge">10 % 2 === 0 //evaluates to true</code> And <code class="highlighter-rouge">7 % 3 === 0 //evaluates to falsebecause there is 1 left over.</code></li>
+</ul>
+
+<h3 id="comments">Comments</h3>
+
+<p>We write a single line comment with //and a multi-line comment with /* and */.</p>
+
+<p>Two types of code comments in JavaScript:</p>
+
+<ul>
+  <li>A single line comment will comment out a single line, and is denoted with two forward slashes // preceding a line of JavaScript code.</li>
+  <li>A multi-line comment will comment out multiple lines, and is denoted with /* to begin the comment, and */ to end the comment.</li>
+</ul>
+
+<h3 id="consolelog">console.log</h3>
+
+<p>console.log() ~ Prints into the console whatever we put in the parentheses.This is commonly called printing out.</p>
+
+<p>We can use the + operator from earlier to interpolate (insert) a variable into a string.</p>
+
+<p>List of comparison operators:</p>
+
+<p>Comparisons need two things to compare and they will always return a boolean (true or false).</p>
+
+<p>Comparison operators, like &lt;, &gt;, &lt;=, and &gt;= can compare two variables. After they compare, they always return either true or false.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* &gt; Greater than
+* &lt; Less than
+* &lt;= Less than or equal to
+* &gt;= Greater than or equal to
+* === Equal to (To check if two things equal each other)
+* !== Not equal to 
+</code></pre></div></div>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Logical Operators, like &amp;&amp;,</td>
+      <td> </td>
+      <td>, !==, and !, can compare two variables to see if a certain condition exists:</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* &amp;&amp; Checks if both sides are true.
+* || Checks if either side is true.
+* ! Changes a variable that is true to false, and vice versa.
+* !== Checks if both sides are not equal.
+</code></pre></div></div>
+
+<h3 id="conditionals">Conditionals</h3>
+
+<ul>
+  <li>if</li>
+</ul>
+
+<p>An if statement is made up of the if keyword, a condition like we’ve seen before, and a pair of curly braces { }. If the answer to the condition is yes, the code inside the curly braces will run.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>if( "myName".length &gt;= 7 ) {
+    console.log("You have a long name!");
+}
+</code></pre></div></div>
+
+<ul>
+  <li>if…else</li>
+</ul>
+
+<p>if the condition is true, then only the code inside the first pair of curly braces will run. Otherwise, the condition is false, so only the code inside the second pair of curly braces after the elsekey word will run.</p>
+
+<ul>
+  <li>if…else if…else</li>
+</ul>
+
+<p>We can add extra conditions with to if/else statements with else if conditions.</p>
+
+<ul>
+  <li>switch</li>
+</ul>
+
+<p>To deal with times when you need many else if conditions, we can turn to a switch statement to write more concise and readable code.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>switch (condition) {
+    case “”: 
+        …;
+        break;
+    case “”:
+    repeat_repeat
+    repeat…
+    default:
+        …;
+        break;
+}
+</code></pre></div></div>
+<h3 id="substrings">Substrings</h3>
+
+<p><code class="highlighter-rouge">”some word".substring(x, y)</code> 
+~ where x is where you start chopping and y is where you finish chopping the original string. 
+~ Each character in a string is numbered starting from 0.</p>
+
+<h2 id="variables">Variables</h2>
+
+<p>We store data values in variables. We can bring back the values of these variables by typing the variable name.Then, if the variable’s value changes we only have to change the variable’s value instead of re-writing the entire program.</p>
+
+<p>Variables are useful in two ways:</p>
+<ul>
+  <li>They allow us to use the same value over and over, without having to write a string or other data type over and over.</li>
+  <li>More importantly, we can assign variables different values that can be read and changed by the program without altering our code.</li>
+</ul>
+
+<p><code class="highlighter-rouge">var varName = data;</code></p>
+
+<p>A variable’s value is easily changed. Just pretend you are creating a new variable while using the same name of the existing variable.</p>
+
+<h2 id="random-number">Random Number</h2>
+
+<ul>
+  <li><code class="highlighter-rouge">Math.random();</code></li>
+</ul>
+
+<p>This code will return a random number between 0 and 1. JavaScript will generate a random number for us with this code.</p>
+
+<ul>
+  <li><code class="highlighter-rouge">Math.floor(Math.random() * 50);</code>
+ Math.floor will take a decimal number, and round down to the nearest whole number.</li>
+</ul>
+
+<h2 id="control-flow">Control Flow</h2>
+
+<p>In programming, making decisions with code is called control flow.</p>
+
+<p>This sentence looks fairly similar when we write it with JavaScript. See for yourself:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var needCoffee = true;
+if (needCoffee) {
+    console.log('Finding coffee');
+    } else {
+    console.log('Keep on keeping on!');
+}
+</code></pre></div></div>
+
+<ul>
+  <li>If the variable needCoffee is true, JavaScript will run one code block, and if a variable is false, it will run another.</li>
+  <li><code class="highlighter-rouge">needCoffee</code> is the condition we are checking inside the if’s parentheses. Since it is equal to true, our program will run the code between the first opening curly brace { (line 2) and the first closing curly brace } (line 4). It will completely ignore the else { … } part. In this case, we’d see ‘Finding coffee’ log to the console. Note: Code between curly braces are called blocks. if/else statements have two code blocks.</li>
+  <li>If we adjusted needCoffee to be false, only the else’s console.log will run.</li>
+  <li>if/else statements are how we can process yes/no questions programmatically.</li>
+</ul>
+
+<p>Why is there a \ in ‘I lead a muggle's life.’? Since the string is surrounded by single quotes, we can use a back slash to add a single quote within the string. This is called escaping a character.</p>
+
+<h2 id="function">Function</h2>
+
+<p>A function is a block of code designed to perform a task.</p>
+
+<p>Functions are like recipes. They take data or variables, perform a set of tasks on them, and then return the result. The beauty of functions is that they allow us to write a chunk of code once, then we can reuse it over and over without writing the same code over and over.</p>
+
+<p>function fun_name(parameter) {
+    xxx;
+}</p>
+
+<p>If we want to give a function a number. To do this, we can use parameters. Parameters are variables that we can set when we call the function.</p>
+
+<p>when we call fun_name(x), the x is called an argument.Arguments are provided when you call a function, and parameters receive arguments as their value.</p>
+
+<ul>
+  <li>
+    <p>return ~ To return a result, we can use the return keyword.</p>
+  </li>
+  <li>Functions are written to perform a task.</li>
+  <li>Functions take data or variables, perform a set of tasks on them, and then return the result.</li>
+  <li>We can define parameters when calling the function.</li>
+  <li>When calling a function, we can pass in arguments, which will set the function’s parameters.</li>
+  <li>We can use return to return the result of a function which allows us to call functions anywhere, even inside other functions.</li>
+</ul>
+
+<h2 id="scope">Scope</h2>
+
+<ul>
+  <li>Scope is the idea in programming that some variables are acessible/inaccessible from other parts of the program.</li>
+  <li>Global Scope refers to variables that are accessible to every part of the program.</li>
+  <li>Functional Scope refers to variables created inside functions, which are not accessible outside of its block.</li>
+</ul>
+
+<h2 id="array">Array</h2>
+
+<p>We can also access each individual character in a string the same way you do with arrays.</p>
+
+<ul>
+  <li>push()</li>
+  <li>
+    <p>pop()</p>
+  </li>
+  <li>Arrays are lists and are a way to store data in JavaScript. Each item inside of an array is at a numbered position. Arrays are created with brackets [].</li>
+  <li>We can access one item in an array using it’s numbered position, with syntax like: myArray[0].</li>
+  <li>Arrays have a length property, which allows you to see how many items are in an array.</li>
+  <li>Arrays also have their own methods, including <code class="highlighter-rouge">push</code> and <code class="highlighter-rouge">pop</code>, which add and subtract items from an array, respectively.</li>
+</ul>
+
+<h2 id="loop">Loop</h2>
+
+<p>Loops are especially helpful when we have an array where we’d like to do something to each item in the array, like logging each item to the console.</p>
+
+<ul>
+  <li><code class="highlighter-rouge">for</code> loops allow us to repeat a block of code a known amount of times.</li>
+  <li>We can use a <code class="highlighter-rouge">for</code> loop inside another <code class="highlighter-rouge">for</code> loop to compare two lists.</li>
+  <li><code class="highlighter-rouge">while</code> loops are for looping over a code block an unknown amount of times.</li>
+</ul>
+
+<h2 id="jquery">jQuery</h2>
+
+<p>The Document Object Model, commonly referred to as the DOM’, is the term for elements in an HTML file. Elements are any HTML code denoted by HTML tags, like &lt;div&gt;, &lt;a&gt;, or &lt;p&gt;.</p>
+
+<p>To better interact with DOM elements, we can use a library. A library is a set of code that contains useful pre-written functions that help with certain tasks.</p>
+
+<ul>
+  <li>Include jQuery in our project. jQuery is a library, which means it is a set of code in a file, therefore we will need to link that file in our HTML in order to access it. Once we link it in our HTML file, we can use its functions and syntax in our js/main.js file.</li>
+  <li>Once linked, we’ll need to make sure our HTML is loaded before we run our jQuery and JavaScript code. 
+The link to jQuery needs to be above the link to the js file, which will give js file access to the jQuery library.</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$(document).ready(main);
+</code></pre></div></div>
+
+<p>jQuery has a built in function to check if the page is ready before it will run our code. <code class="highlighter-rouge">main</code> here is a callback, which means that our code will wait until the <code class="highlighter-rouge">document</code>(the DOM) is loaded,or ready.</p>
+
+<p>How to select HTML element?</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>document.getElementsByClassName(‘skillset’); // in JavaScript
+$(‘.skillset’); // in jQuery
+</code></pre></div></div>
+
+<p>example: <code class="highlighter-rouge">var $skillset = $('.skillset');</code></p>
+
+<p>It is a common convention to name variables that hold jQuery selectors with a dollar sign <code class="highlighter-rouge">$</code>.</p>
+
+<ul>
+  <li>hide() ~ hide elements with jQuery</li>
+  <li>fadeIn() ~  fade an element in over a period of time in milliseconds.</li>
+  <li>on(‘click’) ~ It’s listens to an element for a click event</li>
+  <li>show() ~ To make projects visible</li>
+  <li>toggle() ~ toggle will hide or show an element, each time it is triggered.</li>
+  <li>toggleClass() ~  Toggle a CSS class on the jQuery selector it’s connected to. If the element has the class applied to it, toggleClass will remove it, and if the element does not have the class, it will add it.</li>
+  <li>next() ~ We can attach next to any jQuery selector to select the next direct element. Then, we can attach any jQuery function to next().</li>
+  <li>text() ~ With this function, we can change the text of an element.</li>
+  <li>slideToggle() ~ Animate an element’s entrance and exit. It can be called directly on a jQuery selector.Also, it takes a parameter of milliseconds that the animation should last.</li>
+  <li><code class="highlighter-rouge">$(this)</code> ~ <code class="highlighter-rouge">this</code> is a JavaScript keyword.<code class="highlighter-rouge">this</code> will only acting the class of the one that is worked.<code class="highlighter-rouge">$(this)</code> behaves just like our other selectors.</li>
+</ul>
+
+
+
+                <hr>
+
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>进行许可。转载，请注明原作者 Azeril 及本文源链接。
+
+                <hr>
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/blog/Make-a-Travel-Plan-With-Trello.html" data-toggle="tooltip" data-placement="top" title="与 Trello 一起旅行">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/blog/Cook-With-Potatoes.html" data-toggle="tooltip" data-placement="top" title="优化轻断食，调整饮食结构">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+                <!-- Utteranc -->
+
+                <script src="https://utteranc.es/client.js"
+                        repo="Azeril/azeril.github.io"
+                        issue-term="pathname"
+                        theme="github-light"
+                        crossorigin="anonymous"
+                        async>
+                </script>
+            </div>
+        </div>
+     </div>
+  </article>
+</script>
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+  
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <!-- kill the Facebook and Weibo -->
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a href="https://twitter.com/Azeril_Lapland">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a href="https://github.com/Azeril">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <!--
+                    
+                    <li>
+                        <a href="http://www.douban.com/people/Azeril">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-douban fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    -->
+
+                    <!--
+                    
+                    <li>
+                        <a href="https://www.facebook.com/Azeril_Lapland">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    -->
+
+                    
+                    <li>
+                        <a target="_blank" href="https://www.zhihu.com/people/Azeril">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa  fa-stack-1x fa-inverse">知</i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    <!--
+                    
+                    <li>
+                        <a target="_blank" href="http://weibo.com/Azeril">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    -->
+
+                </ul>
+                <p class="copyright text-muted">
+                &copy; 2011~2019 Azeril ♪ Powered by Jekyll.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+
+<!-- Highlight.js -->
+<script>
+    async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js",function(){
+        hljs.initHighlightingOnLoad();
+    })
+</script>
+<link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+</body>
+
+</html>

@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="在遙遠的地方 一切虔誠終必相遇">
+
+    <title>VIM 基础命令 - Microdust</title>
+
+    <link rel="canonical" href="http://localhost:4000/blog/Vim.html">
+
+    <!-- Icons -->
+  <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Microdust</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                
+                <li>
+                    <a href="/About.html">About</a>
+                </li>
+                
+                <li>
+                    <a href="/Tools.html">Tools</a>
+                </li>
+                
+                <li>
+                    <a href="/Travel.html">Travel</a>
+                </li>
+                
+                <li>
+                    <a href="/tags.html">Tags</a>
+                </li>
+                
+
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/fantasy.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="Tags">
+                        
+                        <a class="tag" href="/Tags/#Tech" title="Tech">Tech</a>
+                        
+                    </div>
+                    <h1>VIM 基础命令</h1>
+                    
+                    <span class="meta">Posted by Azeril on October 23, 2015</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
+
+                <h2 id="vim">VIM</h2>
+
+<p>以前玩 Python 及之前用 Git 因为不熟悉 Vim 遇到了很多坑，进而导致屡次学习各项语言的放弃…惨痛教训就源于这莫名其妙的 Vim…</p>
+
+<p>整理一下思路，重新出发。</p>
+
+<p>Vi/Vim 常用的有三种模式：</p>
+
+<ol>
+  <li>普通 模式 默认进入界面时的模式，此时只支持 Vi/Vim 的指令</li>
+  <li>Insert 模式 此模式下才能插入文本</li>
+  <li>选择模式</li>
+</ol>
+
+<h2 id="常用指令">常用指令</h2>
+
+<ul>
+  <li>i 在指令模式下，按「i」激活编辑模式；</li>
+  <li>esc 在非指令模式下，按 esc 键退出</li>
+  <li>:wq 保存并退出</li>
+</ul>
+
+<h2 id="编辑插入模式模式常用指令">编辑（插入模式）模式常用指令</h2>
+
+<h3 id="进入-insert-模式">进入 Insert 模式</h3>
+
+<p>在普通模式下使用下面的键将进入插入模式，并可以从相应的位置开始输入</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>CMD</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>i</td>
+      <td>光标位置开始编辑</td>
+    </tr>
+    <tr>
+      <td>I</td>
+      <td>行首插入</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>行末插入</td>
+    </tr>
+    <tr>
+      <td>a</td>
+      <td>自光标后编辑</td>
+    </tr>
+    <tr>
+      <td>o</td>
+      <td>当前行之后插入一行</td>
+    </tr>
+    <tr>
+      <td>O</td>
+      <td>当前行之前插入一行</td>
+    </tr>
+    <tr>
+      <td>cw</td>
+      <td>替换从光标所在位置后到一个单词结尾的字符</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>在指令模式下的一些其他选项</p>
+
+<h3 id="编辑快捷键">编辑快捷键</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>CMD</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>:w</td>
+      <td>保存当前文件</td>
+    </tr>
+    <tr>
+      <td>:q</td>
+      <td>退出，如文件有修改则需用强制模式退出</td>
+    </tr>
+    <tr>
+      <td>:q!</td>
+      <td>强制退出，不保存修改</td>
+    </tr>
+    <tr>
+      <td>:wq</td>
+      <td>保存并退出</td>
+    </tr>
+    <tr>
+      <td>:x</td>
+      <td>保存并退出</td>
+    </tr>
+    <tr>
+      <td>:w <path></path></td>
+      <td>另存为</td>
+    </tr>
+    <tr>
+      <td>:saveas <path></path></td>
+      <td>另存为</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="选择模式常用指令">选择模式常用指令</h2>
+
+<h3 id="光标移动快捷键">光标移动快捷键</h3>
+
+<p>k - 上 j - 下  h - 左 l - 右</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>…</th>
+      <th><strong>k</strong></th>
+      <th>…</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>h</strong></td>
+      <td>…</td>
+      <td><strong>l</strong></td>
+    </tr>
+    <tr>
+      <td>…</td>
+      <td><strong>j</strong></td>
+      <td>…</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>w  移动到下一个单词<br />
+b  移动到上一个单词</p>
+
+<h3 id="翻页">翻页</h3>
+
+<p>Control + f
+Control + b</p>
+
+<h3 id="删除">删除</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Key</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>x</td>
+      <td>删除光标所在字符</td>
+    </tr>
+    <tr>
+      <td>Delete</td>
+      <td>删除光标所在字符</td>
+    </tr>
+    <tr>
+      <td>X</td>
+      <td>删除光标所在前一个字符</td>
+    </tr>
+    <tr>
+      <td>dd</td>
+      <td>删除整行</td>
+    </tr>
+    <tr>
+      <td>dw</td>
+      <td>删除一个单词</td>
+    </tr>
+    <tr>
+      <td>d$ / D</td>
+      <td>从当前位置删除至行尾</td>
+    </tr>
+    <tr>
+      <td>d^</td>
+      <td>从当前位置删除至行首</td>
+    </tr>
+    <tr>
+      <td>dG</td>
+      <td>删除到文档结尾处</td>
+    </tr>
+    <tr>
+      <td>d1G</td>
+      <td>删至文档首部</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="命令行进入设定退出">命令行进入设定退出</h3>
+
+<p>Ctrl + C 退出</p>
+
+
+                <hr>
+
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>进行许可。转载，请注明原作者 Azeril 及本文源链接。
+
+                <hr>
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/blog/Build-A-Hugo-Blog.html" data-toggle="tooltip" data-placement="top" title="搭建一个 Hugo Blog">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/blog/Homebrew.html" data-toggle="tooltip" data-placement="top" title="Homebrew 入门">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+                <!-- Utteranc -->
+
+                <script src="https://utteranc.es/client.js"
+                        repo="Azeril/azeril.github.io"
+                        issue-term="pathname"
+                        theme="github-light"
+                        crossorigin="anonymous"
+                        async>
+                </script>
+            </div>
+        </div>
+     </div>
+  </article>
+</script>
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+  
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <!-- kill the Facebook and Weibo -->
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a href="https://twitter.com/Azeril_Lapland">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a href="https://github.com/Azeril">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <!--
+                    
+                    <li>
+                        <a href="http://www.douban.com/people/Azeril">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-douban fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    -->
+
+                    <!--
+                    
+                    <li>
+                        <a href="https://www.facebook.com/Azeril_Lapland">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    -->
+
+                    
+                    <li>
+                        <a target="_blank" href="https://www.zhihu.com/people/Azeril">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa  fa-stack-1x fa-inverse">知</i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    <!--
+                    
+                    <li>
+                        <a target="_blank" href="http://weibo.com/Azeril">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    -->
+
+                </ul>
+                <p class="copyright text-muted">
+                &copy; 2011~2019 Azeril ♪ Powered by Jekyll.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+
+<!-- Highlight.js -->
+<script>
+    async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js",function(){
+        hljs.initHighlightingOnLoad();
+    })
+</script>
+<link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+</body>
+
+</html>

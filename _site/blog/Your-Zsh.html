@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="在遙遠的地方 一切虔誠終必相遇">
+
+    <title>Zsh & oh-my-zsh 终端漫游的利器 - Microdust</title>
+
+    <link rel="canonical" href="http://localhost:4000/blog/Your-Zsh.html">
+
+    <!-- Icons -->
+  <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Microdust</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                
+                <li>
+                    <a href="/About.html">About</a>
+                </li>
+                
+                <li>
+                    <a href="/Tools.html">Tools</a>
+                </li>
+                
+                <li>
+                    <a href="/Travel.html">Travel</a>
+                </li>
+                
+                <li>
+                    <a href="/tags.html">Tags</a>
+                </li>
+                
+
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/fantasy.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="Tags">
+                        
+                        <a class="tag" href="/Tags/#Mac" title="Mac">Mac</a>
+                        
+                    </div>
+                    <h1>Zsh & oh-my-zsh 终端漫游的利器</h1>
+                    
+                    <span class="meta">Posted by Azeril on June 6, 2016</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
+
+                <h2 id="intro-简介">Intro 简介</h2>
+
+<figure>
+    <img src="http://dreamofbook.qiniudn.com/ZshLogoDisplay.png" />
+</figure>
+
+<p>Zsh 是一个 Unix shell，是 Z shell 的简称。Zsh 作为一款强大的终端工具，能帮助你更高效地编写和执行命令。</p>
+
+<p>主要特性与特性：</p>
+
+<ul>
+  <li>Zsh 兼容 bash（Bourne shell），没有什么迁移的学习成本</li>
+  <li>更全面的自动补全功能（命令、选项、参数、目录、文件等）</li>
+  <li>更高效的补全模式。输入命令/路径/文件名等的一部分，点击一下 Tab 键触发自动补全。当补全选项有多个，则会在终端中列表显示，可通过键盘方向键或 Tab 键的移动供来选择</li>
+  <li>自定义提示符，并集成 Git 的提示，当进入目录为 Git 仓库时，会提示 Branch 信息（git 插件提供的功能）</li>
+  <li>支持全局与后缀名的 alias，让 alias 短命令能搭配参数使用，比如 <code class="highlighter-rouge">gst</code> 用于替换 <code class="highlighter-rouge">git status</code> 的输入，<code class="highlighter-rouge">gp</code> 执行 <code class="highlighter-rouge">git push</code> 等。</li>
+  <li>快速目录切换，省略 <code class="highlighter-rouge">cd</code> 命令，直接输目录名称即可进入</li>
+  <li>多终端会话共享历史记录</li>
+  <li>更实用的历史记录功能，支持历史命令行的受限搜索，输入 <code class="highlighter-rouge">py</code>，点击上方向键，即可查阅之前执行的 Python 命令</li>
+  <li>通配符搜索
+    <ul>
+      <li>不通过 <code class="highlighter-rouge">grep</code> 命令，利用 <code class="highlighter-rouge">ls</code> 命令即可在终端中完成搜索，<code class="highlighter-rouge">ls *.jpg</code> 就能当前目录下所有 jpg 图片文件都搜索出来；</li>
+      <li>也可以使用递归查找:<code class="highlighter-rouge">ls **/*.mobi</code> 将这个目录中所有相匹配的 mobi 电子书文件挖掘出来。</li>
+    </ul>
+  </li>
+  <li>搭载丰富的主题包（依靠 oh-my-zsh）</li>
+</ul>
+
+<figure>
+    <img src="http://dreamofbook.qiniudn.com/OhMyZshLogoDisplay.png" />
+</figure>
+
+<p>Zsh 好用也足够强大，但它的配置相对复杂，这时，有一个叫 oh-my-zsh 的 Zsh 扩展工具，源自 GitHub 的一个个人开源项目，它内置丰富的自定义主题（指 Zsh 显示风格），自带上百个功能各异的插件，并能便捷地管理和配置。让使用者能快速上手 Zsh。</p>
+
+<p>Zsh 与 oh-my-zsh 具体的安装方式与配置方法，不同平台略有差别，本文仅以 Mac OSX 平台为例。</p>
+
+<h2 id="install-安装">Install 安装</h2>
+
+<p>查看当前系统的 Shell：</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ echo $SHELL
+</code></pre></div></div>
+<p>默认情况下是 <code class="highlighter-rouge">bash</code>。查看当前系统默认 Shells 的命令：</p>
+
+<blockquote>
+  <p>cat /etc/shell</p>
+</blockquote>
+
+<p>安装 Zsh：</p>
+
+<p>OSX 自带 Zsh，但不是新版，可以使用 Homebrew 进行更新安装：</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ brew install zsh
+</code></pre></div></div>
+
+<p>配置、切换</p>
+
+<p>切换当前用户的 Shell 为 Zsh：</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ chsh -s /bin/zsh
+</code></pre></div></div>
+
+<p>执行切换命令后，另开 Terminal 窗口，会发现 Zsh 已完成对终端的接管。</p>
+
+<p>提示：如果原先在 <code class="highlighter-rouge">.bash_profile</code> 配置过 alias 短命令或设定，可以转存到 <code class="highlighter-rouge">.zshrc</code> 文档中。因为 Zsh 兼容 bash，使用上不会有问题。这一步骤可以放在安装和配置完 oh-my-zsh 之后，以免重复操作。</p>
+
+<h2 id="config-设定">Config 设定</h2>
+
+<p>在进行具体的配置之前，需先完成 oh-my-zsh 的安装。官方推荐使用 <code class="highlighter-rouge">curl</code> 或 <code class="highlighter-rouge">wget</code> 下载程序进行下载。如果没有安装，可先通过 <code class="highlighter-rouge">Homebrew</code> 安装任意一款，然后依照对应的方式下载。</p>
+
+<p>使用 <code class="highlighter-rouge">curl</code> 安装：</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+</code></pre></div></div>
+
+<p>使用 <code class="highlighter-rouge">wget</code> 安装：</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+</code></pre></div></div>
+
+<p>此外，也可通过 Git 安装 oh-my-zsh：</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+</code></pre></div></div>
+
+<p>配置：</p>
+
+<p>备份当前存在的 Zsh 配置文档：</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ cp ~/.zshrc ~/.zshrc.orig
+</code></pre></div></div>
+
+<p>通过 oh-my-zsh 配置模板来创建配置文件：</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+</code></pre></div></div>
+<p>更换主题：</p>
+
+<p>主题皮肤的存放路径是 <code class="highlighter-rouge">~/.oh-my-zsh/themes</code>。</p>
+
+<p>想查看主题所对应的显示效果（有截图），可到官方 Wiki 中的主题展示： <a href="https://github.com/robbyrussell/oh-my-zsh/wiki/themes">Themes /oh-my-zsh Wiki</a>。喂不饱你？还有更多扩展主题：<a href="https://github.com/robbyrussell/oh-my-zsh/wiki/External-themes">External themes /oh-my-zsh Wiki</a></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ vi ~/.zshrc
+</code></pre></div></div>
+
+<p>使用 Vim 打开配置文件更换。将 <code class="highlighter-rouge">ZSH_THEME="Themes"</code> 一项引号部分修改为自己想要使用的主题皮肤。(个人推荐 <code class="highlighter-rouge">robbyrussell</code> 主题)当然，如果希望尝试新主题，你也可以将皮肤主题设置为随机使用。只要将主题选项参数设为「random」即可。</p>
+
+<p><img src="http://dreamofbook.qiniudn.com/CLIiTermAndArcheyDisplay.png" alt="" /></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ ZSH_THEME=”random”
+</code></pre></div></div>
+
+<p>执行命令，使配置生效：</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ source ~/.zshrc
+</code></pre></div></div>
+
+<p>以后每次开启新的终端窗口都会随机加载一款主题了。</p>
+
+<h2 id="plugins-插件集">Plugins 插件集</h2>
+
+<p>oh-my-zsh 提供丰富的插件，除了 Git 这个默认开启的插件，多数插件是默认存在，但没被启用的。需要自己去设定中添加。</p>
+
+<p>自带插件的本地存放目录：<code class="highlighter-rouge">~/.oh-my-zsh/plugins/</code>。如果你想了解插件的功能和使用方法，阅读对应插件目录下的 *.plugin.zsh 就行，比如查看 Git 帮助文档，就直接 vi ~/.oh-my-zsh/plugins/git/git.plugin.zsh。</p>
+
+<p>插件集概览的网页版：<a href="https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins-Overview">Plugins Overview /oh-my-zsh Wiki</a></p>
+
+<p>添加插件的方法，在 <code class="highlighter-rouge">.zshrc</code> 中进行设置。找到 <code class="highlighter-rouge">plugins</code> 选项（可搜索定位），完成相应插件名（注意大小写）的添加：</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>plugins=(git osx rake ruby)
+</code></pre></div></div>
+
+<p>使配置生效：</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ source ~/.zshrc
+</code></pre></div></div>
+
+<p>插件推荐：</p>
+
+<ul>
+  <li>git
+    <ul>
+      <li>启用 git 命令的缩写</li>
+    </ul>
+  </li>
+  <li>osx
+    <ul>
+      <li><code class="highlighter-rouge">$ cdf</code> 在终端中直接跳转当前 Finder 所在的目录；</li>
+      <li><code class="highlighter-rouge">$ quick-look file_name</code> // 快速预览；</li>
+      <li><code class="highlighter-rouge">$ man-preview command_name</code> // 在 preview 中打开命令指南的 pdf 版；</li>
+      <li>itunes: 命令行操作 iTunes。</li>
+    </ul>
+  </li>
+  <li>autojump
+    <ul>
+      <li>智能跳转，可快速跳转到曾进入的目录</li>
+      <li>使用 <code class="highlighter-rouge">$ j path_name</code>，路径名只要输入前缀，然后 Tab 补全即可。</li>
+    </ul>
+  </li>
+  <li>sublime
+    <ul>
+      <li>添加对编辑器 Sublime Text 的支持</li>
+      <li><code class="highlighter-rouge">$ st file_name</code>，在终端执行后，可用 Sublime Text 打开对应的文件</li>
+      <li>如果想省掉输入 st，可以直接设定 alias。`alias -s c=st h=st # 在命令行直接输入后缀为 c 的文件名，会在 sublime 中打开</li>
+    </ul>
+  </li>
+  <li></li>
+</ul>
+
+<h2 id="参考">参考</h2>
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Z_shell">Z shell - Wikipedia</a></li>
+  <li><a href="http://www.zsh.org/">Zsh.org</a></li>
+  <li><a href="https://github.com/robbyrussell/oh-my-zsh">robbyrussell/Oh-My-zsh - GitHub</a></li>
+  <li><a href="https://github.com/robbyrussell/oh-my-zsh/wiki/themes">Themes · robbyrussell/oh-my-zsh Wiki</a></li>
+  <li><a href="http://blog.jobbole.com/28829/">使用 Zsh 的九个理由</a></li>
+  <li><a href="https://www-s.acm.illinois.edu/workshops/zsh/why.html">Zsh Workshop: Why Zsh</a></li>
+  <li><a href="http://hackerxu.com/2014/11/19/ZSH.html">Zsh 使用指南(译)</a></li>
+  <li><a href="http://blog.jobbole.com/80620/">关于 Zsh，我最喜欢的那些特性</a></li>
+  <li><a href="http://azeril.me/blog/OS-Basic-Configure.html">Mac OS 基本环境配置命令集 - Microdust</a></li>
+  <li><a href="https://github.com/wting/autojump">wting/autojump - GitHub</a></li>
+</ul>
+
+
+
+                <hr>
+
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>进行许可。转载，请注明原作者 Azeril 及本文源链接。
+
+                <hr>
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/blog/Proust-Questionnaire.html" data-toggle="tooltip" data-placement="top" title="春末的普鲁斯特问卷">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/Cola-Chicken-Wings.html" data-toggle="tooltip" data-placement="top" title="Cola Chicken Wings">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+                <!-- Utteranc -->
+
+                <script src="https://utteranc.es/client.js"
+                        repo="Azeril/azeril.github.io"
+                        issue-term="pathname"
+                        theme="github-light"
+                        crossorigin="anonymous"
+                        async>
+                </script>
+            </div>
+        </div>
+     </div>
+  </article>
+</script>
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+  
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <!-- kill the Facebook and Weibo -->
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a href="https://twitter.com/Azeril_Lapland">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a href="https://github.com/Azeril">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <!--
+                    
+                    <li>
+                        <a href="http://www.douban.com/people/Azeril">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-douban fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    -->
+
+                    <!--
+                    
+                    <li>
+                        <a href="https://www.facebook.com/Azeril_Lapland">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    -->
+
+                    
+                    <li>
+                        <a target="_blank" href="https://www.zhihu.com/people/Azeril">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa  fa-stack-1x fa-inverse">知</i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    <!--
+                    
+                    <li>
+                        <a target="_blank" href="http://weibo.com/Azeril">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    -->
+
+                </ul>
+                <p class="copyright text-muted">
+                &copy; 2011~2019 Azeril ♪ Powered by Jekyll.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+
+<!-- Highlight.js -->
+<script>
+    async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js",function(){
+        hljs.initHighlightingOnLoad();
+    })
+</script>
+<link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+</body>
+
+</html>

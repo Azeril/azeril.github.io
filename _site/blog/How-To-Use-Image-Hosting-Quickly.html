@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="在遙遠的地方 一切虔誠終必相遇">
+
+    <title>Mac OS 图床运用优化模式 - Microdust</title>
+
+    <link rel="canonical" href="http://localhost:4000/blog/How-To-Use-Image-Hosting-Quickly.html">
+
+    <!-- Icons -->
+  <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Microdust</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                
+                <li>
+                    <a href="/About.html">About</a>
+                </li>
+                
+                <li>
+                    <a href="/Tools.html">Tools</a>
+                </li>
+                
+                <li>
+                    <a href="/Travel.html">Travel</a>
+                </li>
+                
+                <li>
+                    <a href="/tags.html">Tags</a>
+                </li>
+                
+
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/fantasy.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="Tags">
+                        
+                        <a class="tag" href="/Tags/#Tech" title="Tech">Tech</a>
+                        
+                        <a class="tag" href="/Tags/#Mac" title="Mac">Mac</a>
+                        
+                    </div>
+                    <h1>Mac OS 图床运用优化模式</h1>
+                    
+                    <span class="meta">Posted by Azeril on December 9, 2015</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
+
+                <p>在日常撰写博客及文档时，使用 Markdown 语法进行书写，涉及到图片的显示，往往需要借力于图床。但图片上传到生成可用外链的步骤往往显得繁琐。</p>
+
+<p>以七牛为例，在 Mac OS 下如果用 GUI 界面来操作，那么需要这样的流程：</p>
+
+<ol>
+  <li>写着写着，要配一张图片……</li>
+  <li>在 Finder 确认图片位置</li>
+  <li>打开浏览器</li>
+  <li>通过网址或书签进入七牛云控制台</li>
+  <li>选定某个七牛云空间</li>
+  <li>点击「上传」选择具体目录下的图片，确认上传</li>
+  <li>上传成功，在列表中选中该图片，复制外链</li>
+  <li>忘了前面在写什么了…</li>
+</ol>
+
+<p>如果是使用命令行工具，以 qrsync[1] 为例：</p>
+
+<ol>
+  <li>写着写着，我又要配一张图片……</li>
+  <li>把图片添加（无论是复制还是移动）到一个指定目录里，Finder 点几下</li>
+  <li>打开 Terminal 或 iTerm</li>
+  <li>输入一条同步的指令，提示上传完成（嗯，alias 把长命令自定义弄短点…）</li>
+  <li>好然后，这里有三条路：
+    <ul>
+      <li>记性好的话，在终端里输入七牛图片外链，独立域名+图片名称与后缀（输入得慢怪键盘…）</li>
+      <li>聪明一点的话，用 TextExpander 或 aText 来简化输入流程；</li>
+      <li>喔，如果记不得自己的七牛域名，那意味着还得去点开浏览器，然后…</li>
+    </ul>
+  </li>
+  <li>嗯…接下来写什么…</li>
+</ol>
+
+<p>其实，不用很累很麻烦就可以获得自己的图片外链啊</p>
+
+<p>一次拖拽，完成上传及图片外链自动生成。</p>
+
+<ol>
+  <li>我要配图</li>
+  <li>Finder 找到图片，拖拽，（自动…上传，生成外链）</li>
+  <li>切回编辑器，粘贴外链</li>
+</ol>
+
+<p><img src="http://dreamofbook.qiniudn.com/Blog.Dropzone.Pic.Add.Action.gif" alt="" /></p>
+
+<h2 id="正餐开始">正餐开始</h2>
+
+<ul>
+  <li>锅子：Dropzone ## 基础应用</li>
+  <li>主料：Qiniud.zbundle  ## 七牛的 Dropzone 插件</li>
+  <li>调味品：qiniu（ruby gem）&amp; Python ## 命令工具依赖</li>
+</ul>
+
+<h3 id="应用安装">应用安装</h3>
+
+<p>Dropzone 是……</p>
+
+<blockquote>
+  <p>Dropzone is a productivity tool for the Mac that makes it faster and easier to move and copy files, launch applications, upload to many different services, and more.</p>
+</blockquote>
+
+<p>嗯哼。实际功能自然远不止于让我们能快速上传相片这样一个。但简单粗暴的实质在各方面运用中都是类似的…</p>
+
+<p>正版的购买途径有 App Store 和应用开发者官方。其中，在 App Store 购买的版本受限于 Apple 的沙盒，功能不全。但可以从官方下载完整版覆盖安装。</p>
+
+<p>官方声明：<a href="https://aptonic.com/dropzone3/sandboxing.php">Aptonic - Dropzone 3 Sandboxing</a></p>
+
+<ul>
+  <li>开发者官网：<a href="https://aptonic.com/">Aptonic - Dropzone 3</a></li>
+  <li>AppStore：<a href="https://itunes.apple.com/us/app/dropzone-3/id695406827?mt=12">Dropzone</a></li>
+</ul>
+
+<h3 id="环境部署">环境部署</h3>
+
+<p>进入终端进行安装：</p>
+
+<ul>
+  <li>Python（Mac 自带）</li>
+  <li>qiniu（依赖 ruby/rubygems 工具，Mac 自带），命令如下：</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo gem install qiniu
+</code></pre></div></div>
+
+<p>如果报错，频繁出现的幺蛾子是：</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ERROR:  While executing gem ... (Errno::EPERM)
+    Operation not permitted - /usr/bin/restclient
+</code></pre></div></div>
+
+<p>请看此 Issue：<a href="https://github.com/sass/sass/issues/1769">Sass won’t install on El Capitan · Issue #1769 · sass/sass</a>。注意将</p>
+
+<p><code class="highlighter-rouge">sudo gem install -n /usr/local/bin GEM_NAME_HERE</code></p>
+
+<p>命令中的 <code class="highlighter-rouge">GEM_NAME_HERE</code> 替换为 <code class="highlighter-rouge">qiniu</code></p>
+
+<p>如果不是，自己动手丰衣足食啦。</p>
+
+<h3 id="插件安装">插件安装</h3>
+
+<p>做菜总得有料…接下来就是为 Dropzone 配置七牛云插件。Qiniud.zbundle。</p>
+
+<p>下载地址：<a href="https://github.com/aptonic/dropzone3-actions">Aptonic/dropzone3-actions</a> 把整个仓库扒下来，找到主目录下的 Qiniu.dzbundle 插件。</p>
+
+<p>或者 <a href="http://t.cn/R47IsVs">http://t.cn/R47IsVs</a> 直接下载</p>
+
+<p>安装很容易，双击一下，在新出现的对话框，点击「Add to Grid」完成。</p>
+
+<h2 id="配置">配置</h2>
+
+<p><img src="http://dreamofbook.qiniudn.com/Blog.Dropzone.GUI.png" alt="" /></p>
+
+<p>接下来是配置。选中七牛插件，右键选择「edit」。</p>
+
+<p><img src="http://dreamofbook.qiniudn.com/Blog.Dropzone.QNSetting.png" alt="" /></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>选项</th>
+      <th>填写的对应内容</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Server</td>
+      <td>个人七牛空间名</td>
+    </tr>
+    <tr>
+      <td>Username</td>
+      <td>AccessKey</td>
+    </tr>
+    <tr>
+      <td>Password</td>
+      <td>SecretKey</td>
+    </tr>
+    <tr>
+      <td>Remote Path</td>
+      <td>选填。同步于本地的图片目录</td>
+    </tr>
+    <tr>
+      <td>Root Url</td>
+      <td>个人七牛空间独立域名</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Remote Path 用于将随时在各个目录下拖拽上传的文件备份在本地目录一个选定文件夹中。填写该选项测试时总报错，不知具体的路径逻辑是怎么样的，不过可以忽略。</p>
+
+<h2 id="参考文档">参考文档</h2>
+
+<ul>
+  <li><a href="http://docs.qiniu.com/tools/v6/qrsync.html">qrsync 命令行同步工具</a>  七牛官方 Qrsync 命令行工具同步教程</li>
+  <li><a href="http://yansu.org/2015/01/10/use-dropzone-and-qiniu-to-store-blog-images.html">使用 Dropzone 和七牛云存储来优化博客图床</a> 插件作者博客说明</li>
+  <li><a href="https://aptonic.com/">Aptonic - Dropzone 3</a> Dropzone 官方网站</li>
+  <li><a href="https://github.com/aptonic/dropzone3-actions">Aptonic/Dropzone3-Actions</a> Dropzone Actions  GitHub 插件集</li>
+</ul>
+
+
+                <hr>
+
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>进行许可。转载，请注明原作者 Azeril 及本文源链接。
+
+                <hr>
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/blog/Learning-By-Learning.html" data-toggle="tooltip" data-placement="top" title="Learning, Step By Step">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/blog/Repair-Jekyll-Serve-Problems.html" data-toggle="tooltip" data-placement="top" title="修复 Jekyll 升级 3.0 版后的预览问题">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+                <!-- Utteranc -->
+
+                <script src="https://utteranc.es/client.js"
+                        repo="Azeril/azeril.github.io"
+                        issue-term="pathname"
+                        theme="github-light"
+                        crossorigin="anonymous"
+                        async>
+                </script>
+            </div>
+        </div>
+     </div>
+  </article>
+</script>
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+  
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <!-- kill the Facebook and Weibo -->
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a href="https://twitter.com/Azeril_Lapland">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a href="https://github.com/Azeril">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <!--
+                    
+                    <li>
+                        <a href="http://www.douban.com/people/Azeril">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-douban fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    -->
+
+                    <!--
+                    
+                    <li>
+                        <a href="https://www.facebook.com/Azeril_Lapland">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    -->
+
+                    
+                    <li>
+                        <a target="_blank" href="https://www.zhihu.com/people/Azeril">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa  fa-stack-1x fa-inverse">知</i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    <!--
+                    
+                    <li>
+                        <a target="_blank" href="http://weibo.com/Azeril">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    -->
+
+                </ul>
+                <p class="copyright text-muted">
+                &copy; 2011~2019 Azeril ♪ Powered by Jekyll.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+
+<!-- Highlight.js -->
+<script>
+    async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js",function(){
+        hljs.initHighlightingOnLoad();
+    })
+</script>
+<link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+</body>
+
+</html>

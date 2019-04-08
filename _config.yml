@@ -7,7 +7,7 @@ baseurl: ""
 # url: "http://azeril.me"  
 # url: "http://localhost:4000"
 
-url: http://stardust.cat
+url: http://azeril.com
 # enforce_ssl: 
 
 # About/contact
@@ -36,8 +36,8 @@ kramdown:
 highlighter: rouge
 
 gems: 
-- jekyll-gallery-generator
 - jekyll-paginate
+## - jekyll-gallery-generator
 permalink: none
 paginate: 8
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]

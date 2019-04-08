@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="在遙遠的地方 一切虔誠終必相遇">
+
+    <title>JavaScript 概念入门 - Microdust</title>
+
+    <link rel="canonical" href="http://localhost:4000/blog/JavaScript-Getting-Start-Basic-Concept-and-Knowledge.html">
+
+    <!-- Icons -->
+  <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Microdust</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                
+                <li>
+                    <a href="/About.html">About</a>
+                </li>
+                
+                <li>
+                    <a href="/Tools.html">Tools</a>
+                </li>
+                
+                <li>
+                    <a href="/Travel.html">Travel</a>
+                </li>
+                
+                <li>
+                    <a href="/tags.html">Tags</a>
+                </li>
+                
+
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/fantasy.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="Tags">
+                        
+                        <a class="tag" href="/Tags/#JavaScript" title="JavaScript">JavaScript</a>
+                        
+                        <a class="tag" href="/Tags/#Coding" title="Coding">Coding</a>
+                        
+                    </div>
+                    <h1>JavaScript 概念入门</h1>
+                    
+                    <span class="meta">Posted by Azeril on March 29, 2017</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
+
+                <h2 id="概述">概述</h2>
+
+<ul>
+  <li>网景公司 1995 年发布 JavaScript;</li>
+  <li>ECMAScript（European Computer Manufacturers Association）是一种语言标准，而 JavaScript 是网景公司对该标准的实现方式。最新的 ES6 发布于 2015 年 6 月。</li>
+</ul>
+
+<p>JavaScript 能直接嵌入在网页任何地方，但通常放在网页的 &lt;head&gt; 中，由 <script></script> 包裹，能被浏览器直接执行。它也可以放在单独 .js 文件，通过 <script src="..."></script> 引入。</p>
+
+<p>编写 JavaScript：使用诸如 Sublime Text 一类的编辑器。
+运行：要让浏览器运行代码，需先有一个 HTML 页面，在浏览器中加载引入了 JavaScript 代码的页面，就可以执行代码。最初的学习阶段，不用管开发环境搭建的问题，直接在浏览器，比如 Chrome 提供的 Develop Tool 下的 控制台（Console）就可以运行程序代码了。</p>
+
+<h3 id="基本语法">基本语法</h3>
+
+<p>JavaScript 的每个语句以<code class="highlighter-rouge"> ；</code>结束，语句块以<code class="highlighter-rouge">{…}</code>来囊括。</p>
+
+<p>赋值方式 <code class="highlighter-rouge">var = xx；</code>。</p>
+
+<p>语句块中的语句缩进 4 空格，这不是 JavaScript 语法要求的，但可以让语法更直观易读。语句块的语句可以嵌套，形成层级结构。</p>
+
+<p>语法的注释方式是将 <code class="highlighter-rouge">//</code> 放一行的开头，并在行末用同样的符号收尾。另一种注释方式是 <code class="highlighter-rouge">/*…*/</code> 包裹语句块或行。</p>
+
+<h3 id="data-type-数据类型">Data Type 数据类型</h3>
+
+<ul>
+  <li>
+    <p>Number</p>
+  </li>
+  <li>整数</li>
+  <li>浮点数 0.42</li>
+  <li>科学计数法 3.14e</li>
+  <li>负数</li>
+  <li>NaN Not a Number 当无法计算结果时的表达方式</li>
+  <li>Infinity 超过 JavaScript 的数值能表达的最大值，用 Infinity 来表示无限大</li>
+</ul>
+
+<p>Number 可以直接做基本的四则运算。（加 + 减 - 乘* 除 / 取余 %）</p>
+
+<ul>
+  <li>字符串</li>
+</ul>
+
+<p>使用单引号或双引号括起的任意文本</p>
+
+<ul>
+  <li>布尔值</li>
+</ul>
+
+<p>一个布尔值只有 true 或 false 两种表达。布尔值常用于条件判断中。</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>2 &gt; 1; // true  
+42 &gt;= 43 // false  
+</code></pre></div></div>
+
+<p>在 <code class="highlighter-rouge">&amp;&amp;</code> （与）运算作判断时，只有相关条件都满足，运算结果才为 <code class="highlighter-rouge">true</code>。</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>true &amp;&amp; true // ture  
+true &amp;&amp; false // false
+</code></pre></div></div>
+
+<p>在 <code class="highlighter-rouge">||</code> （或）运算时，只要满足一个条件为正确，输出即为 <code class="highlighter-rouge">true</code>。
+在 <code class="highlighter-rouge">!</code> （非）运算时，原有的结果互相转换，<code class="highlighter-rouge">true</code> 变成 <code class="highlighter-rouge">false</code>，反之亦然。</p>
+
+<ul>
+  <li>比较运算符</li>
+</ul>
+
+<p>在对 Number 做比较时，可以通过比较运算符获得布尔值，除此之外，JavaScript 也可以比较任意数据类型。（<code class="highlighter-rouge">===</code> 会比较数据类型，而 <code class="highlighter-rouge">==</code> 在比较时会转换数据类型，导致一些错误结果，这是 JavaScript 设计的问题。）</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>false == 0; //  true
+false ===0; //  false
+</code></pre></div></div>
+
+<p><code class="highlighter-rouge">Nan</code> 的判断方式，在比较时，它不与任何值相等，包括自身。唯一能判断的方式是用 <code class="highlighter-rouge">isNaN()</code> 函数。</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>isNaN(NaN); // true
+</code></pre></div></div>
+
+<p>浮点数的相等比较，浮点数在运算过程中会产生误差，计算机无法精确表示无限循环小数。</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1 / 3 === (1 - 2 / 3); // false
+</code></pre></div></div>
+
+<p>要比较两个浮点数是否相等，只能计算它们之差的绝对值，看是否小于某个阈值：</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Math.abs(1 / 3 - (1 - 2 / 3)) &lt; 0.0000001; // true
+</code></pre></div></div>
+
+<ul>
+  <li>null 和 undefined</li>
+</ul>
+
+<p><code class="highlighter-rouge">null</code> 表示空值。与 0 或 <code class="highlighter-rouge">''</code> 空字符串不同。0 为数值，<code class="highlighter-rouge">''</code> 表示长度为零的字符串，<code class="highlighter-rouge">null</code> 表示为「空」。JavaScript 下还有一个类似的 <code class="highlighter-rouge">undefined</code>，表示为「未定义」。一般区分两者的意义不大，多数情况下使用前者，仅在判断函数参数是否传递时，用 <code class="highlighter-rouge">undefined</code>。</p>
+
+<ul>
+  <li>Array 数组</li>
+</ul>
+
+<p>数组是一组按顺序排列的集合，用 <code class="highlighter-rouge">[]</code> 表示，其中的每个值称为元素，以 <code class="highlighter-rouge">,</code> 分隔。JavaScript 的数组可以包含任意数据类型。另一种创建数组的方式是通过 <code class="highlighter-rouge">Array()</code> 函数来实现：<code class="highlighter-rouge">new Array(1, 2, 4);</code></p>
+
+<p>数组的元素可以通过索引来访问，索引的起始值为 0。</p>
+
+<ul>
+  <li>Object 对象</li>
+</ul>
+
+<p>对象是由一组由键-值组成的无需集合。对象的键都是字符串类型，值，或者说对象的属性，可以是任意数据类型。</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var person = {
+    name: 'Andy' ,
+    age: 24,
+    tages: ['js', 'python'],
+};
+</code></pre></div></div>
+
+<p>对象属性，用 <code class="highlighter-rouge">object.property_name</code> 的方式来获取。类似，<code class="highlighter-rouge">person.name</code>。</p>
+
+<ul>
+  <li>变量</li>
+</ul>
+
+<p>变量不止是数字，也可以是任意数据类型。变量名是英文（包括大小写）、数字、「$」和「_」的组合。但组合时开头不用用数字，变量名也不能是 JavaScript 的关键字，如「if」、「while」等</p>
+
+<p>在语法中，使用等号 <code class="highlighter-rouge">=</code> 对变量赋值，可以是任意数据类型。同一变量可以反复赋值（这种变量本身类型不固定的语言称之为动态语言，与之对应的是静态语言。），且可为不同类型，但只能用 <code class="highlighter-rouge">var</code> 申明一次。</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var a = 42; // Number  
+a = “ABC” // 字符串  
+</code></pre></div></div>
+
+<ul>
+  <li>Strict 模式</li>
+</ul>
+
+<p>如果某一变量没有通过 <code class="highlighter-rouge">var</code> 申明就被使用，那么该变量就自动被申明为全局变量。而使用了 <code class="highlighter-rouge">var</code> 申明的变量则不是全局变量，它的范围被限制在该变量被申明的函数中，同名变量在不同函数中互不冲突。</p>
+
+<p>因为早期 JavaScript 在设计时并不强制要求使用 <code class="highlighter-rouge">var</code>，后来为修补这一缺陷，ECMA 在后续规范中推出了 <code class="highlighter-rouge">strict</code> 模式。启用的方式是，在 JavaScript 代码的首行中标注上 <code class="highlighter-rouge">'use strict';</code> 这样一段字符串。当它运行时，会强制通过 <code class="highlighter-rouge">var</code> 申明变量，未使用就使用的话，将导致运行错误。</p>
+
+<h3 id="string-字符串">String 字符串</h3>
+
+<p>字符串使用 <code class="highlighter-rouge">''</code> 或 <code class="highlighter-rouge">”"</code> 括起的字符表示。如「’」本身就是字符，可以用双引号括起。如果也包含双引号，则使用转义符<code class="highlighter-rouge">\</code> 标识。</p>
+
+<blockquote>
+  <p>‘I'm "OK”;</p>
+</blockquote>
+
+<p>转义符的用途，<code class="highlighter-rouge">\n</code> 表示换行，<code class="highlighter-rouge">\t</code> 表示制表符，如果「\」本身也要转义，则用 <code class="highlighter-rouge">\\</code> 表示。</p>
+
+<ul>
+  <li>多行字符串</li>
+</ul>
+
+<p>一般以 <code class="highlighter-rouge">\n</code> 书写，因为费事，最新的 ES6 新增使用反引号 `…` 的多行字符串表示法。</p>
+
+<ul>
+  <li>模板字符串</li>
+</ul>
+
+<p>多个字符串使用 <code class="highlighter-rouge">+</code> 连接。ES6 新增了一种模板字符串，使用方法类似多行字符串，但它会自动替换字符串变量。</p>
+
+<ul>
+  <li>操作字符串</li>
+</ul>
+
+<p>常见的字符串操作：</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var word =  "Hello,world!";  
+var.length;
+</code></pre></div></div>
+
+<p>获取字符串某指定位置的字符（注意索引从 0 开始）。字符串是不可变的，不能通过索引的方式去重新赋值，虽然那样做不会报错。</p>
+
+<p>字符串操作：</p>
+
+<ul>
+  <li><code class="highlighter-rouge">toUpperCase()</code> 将一个字符串全部变为大写；</li>
+  <li><code class="highlighter-rouge">toLowerCase()</code> 全部变为小写；</li>
+  <li><code class="highlighter-rouge">indexOf()</code>  搜索特定字符串出现位置；</li>
+  <li><code class="highlighter-rouge">substring()</code> 返回指定索引区间的子串；</li>
+</ul>
+
+<h3 id="array-数组">Array 数组</h3>
+
+<p>Array 可以包含任意数据类型，并通过索引来访问每个元素。</p>
+
+<p>使用 <code class="highlighter-rouge">length</code> 属性可获取 <code class="highlighter-rouge">Array</code> 长度。如果直接给 <code class="highlighter-rouge">Array</code> 的 <code class="highlighter-rouge">length</code> 赋新值，会导致其大小变化。可以通过索引将对应的元素修改为新值。而当赋值时索引超出范围，<code class="highlighter-rouge">Array</code> 大小依然会变化。只不过 JavaScript 不会报错。编写代码时，不建议直接修改 Array 大小，访问索引时确保索引不超范围。</p>
+
+<ul>
+  <li><code class="highlighter-rouge">indexOf</code> 用于搜索 <code class="highlighter-rouge">Array</code> 中指定元素的位置；</li>
+  <li><code class="highlighter-rouge">slice</code> 对应 String 的 <code class="highlighter-rouge">substring</code> 的的版本，截取元素并返回新的 <code class="highlighter-rouge">Array</code>。</li>
+  <li><code class="highlighter-rouge">push</code> &amp; <code class="highlighter-rouge">pop</code> 前者向<code class="highlighter-rouge">Array</code> 的末端添加元素，后者则用于将最后一个元素移除掉。</li>
+  <li>unshift &amp; shift 前者，往 <code class="highlighter-rouge">Array</code> 头部添加元素，后者则是移除同位置的元素；</li>
+  <li><code class="highlighter-rouge">sort</code> 排序。直接调用，按照默认顺序进行排序；</li>
+  <li><code class="highlighter-rouge">reverse</code> 反转元素；</li>
+  <li><code class="highlighter-rouge">splice</code> 从指定索引删除元素，再从该位置开始添加元素；</li>
+  <li><code class="highlighter-rouge">concat</code> 将当前 <code class="highlighter-rouge">Array</code> 与另一个 <code class="highlighter-rouge">Array</code> 连接，并返回一个新的；</li>
+  <li><code class="highlighter-rouge">join</code> 将当前 <code class="highlighter-rouge">Array</code> 的元素用指定字符串连起来，返回连接后的字符串；</li>
+</ul>
+
+<p><code class="highlighter-rouge">Array</code> 可以是多层嵌套的，即 <code class="highlighter-rouge">Array</code> 可以囊括其它的 <code class="highlighter-rouge">Array</code>。</p>
+
+<h3 id="对象-object">对象 Object</h3>
+
+<p>JavaScript 的对象是无序集合数据类型，由若干键值构成。对象用于描述现实中的某对象。对象用 <code class="highlighter-rouge">{…}</code> 表示，键值则以 <code class="highlighter-rouge">xxx: xxx</code> 的形式申明，各个键值以 <code class="highlighter-rouge">,</code> 间隔，最后一个键值末尾不需添加。</p>
+
+<p>通过对象和属性名获取属性的方法：<code class="highlighter-rouge">objectName.propertyName</code>。访问属性通过 <code class="highlighter-rouge">.</code> 操作符完成。属性名称如包含特殊字符，必须用 <code class="highlighter-rouge">''</code> 括起。因为 JavaScript 的对象是动态类型，可以自由地为对象添加和删除属性。</p>
+
+<blockquote>
+  <p>objectName.propertyName = xxx;
+delete <code class="highlighter-rouge">objectName.propertyName</code>;</p>
+</blockquote>
+
+<p>使用 <code class="highlighter-rouge">in</code> 可以监测某个对象是否拥有某一属性。<code class="highlighter-rouge">in</code> 判断属性存在，属性不一定属于该对象，也可能是该对象继承得来的。（<code class="highlighter-rouge">toString</code> 的例子）判断某以属性是否为对象自身拥有而非继承，可以用 <code class="highlighter-rouge">hasOwnProperty()</code> 函数来确认。</p>
+
+<p>objectName.hasOwnProperty(‘propertyName’);</p>
+
+<p>书写代码的时候，属性名应尽量用标准变量名。</p>
+
+<h3 id="judgment-条件判断">Judgment 条件判断</h3>
+
+<p>条件判断的语句： if () {…} else {…} 。特点是执行时候二选一，如果某一条件成立，就不再继续判断。</p>
+
+<p>如果语句块只包含一个语句，<code class="highlighter-rouge">{}</code> 可以省略。不过这在实际操作中可能导致后续添加语句，遗忘了添加 <code class="highlighter-rouge">{}</code>，判断语句也会出现问题。一般建议都写上。</p>
+
+<p>多行判断</p>
+
+<p><code class="highlighter-rouge">if …else…</code> 组合使用。</p>
+
+<p>if () {…}; else if () {…}; else {…};</p>
+
+<p>条件判断的顺序很重要。</p>
+
+<p>当 if 语句条件判断结果不是 <code class="highlighter-rouge">true</code> 或 <code class="highlighter-rouge">false</code> 时，JavaScript 如何判定。null、undefined、0、NaN 和空字符串都会被视为 <code class="highlighter-rouge">false</code>，其他值一概视为 <code class="highlighter-rouge">true</code>。</p>
+
+<h3 id="loop-循环">Loop 循环</h3>
+
+<p>循环</p>
+
+<p>两种循环：<code class="highlighter-rouge">for</code> 和 <code class="highlighter-rouge">while</code></p>
+
+<p><code class="highlighter-rouge">for</code> 循环，通过初始条件，结束条件和递增条件来循环执行语句块。</p>
+
+<p><code class="highlighter-rouge">for</code> 循环最常用于利用索引来遍历数组。需要注意，<code class="highlighter-rouge">for</code> 循环的 3 个条件都是可省略的，如无退出循环的判断条件，就必须用 <code class="highlighter-rouge">break</code> 语句退出循环。</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var x = 0;
+for (;;) { // 将无限循环下去
+    if (x &gt; 100) {
+        break; // 通过if判断来退出循环
+    }
+    x ++;
+}
+</code></pre></div></div>
+
+<p>变体，<code class="highlighter-rouge">for…in</code> 用于将一个对象所有属性依次循环出来（搭配 <code class="highlighter-rouge">hasOwnProperty()</code> ，实现过滤掉对象继承的属性）。</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var Andy = {
+
+ name: 'Andy',
+ birth: 1989,
+ school: 'Haining No.1 middle school',
+ height: 1.70, 
+ weight: 55,
+ score: null
+};
+
+for (var key in Andy) {
+ if (Andy.hasOwnProperty(key)) {
+ console.log(key);
+ }
+}
+</code></pre></div></div>
+
+<p>由于 <code class="highlighter-rouge">Array</code> 也是对象，而它的元素的索引被视为对象的属性，因此，<code class="highlighter-rouge">for...in</code> 循环可直接循环出 <code class="highlighter-rouge">Array</code> 的索引。</p>
+
+<p>while</p>
+
+<p><code class="highlighter-rouge">while</code> 循环只有一个判断条件，满足条件则不断循环，不满足时就退出。</p>
+
+<p><code class="highlighter-rouge">do...while</code> 循环与 <code class="highlighter-rouge">while</code> 循环唯一的区别在于，不是在每次循环开始时判断条件，而是在每次循环完成后进行判断。也因此，<code class="highlighter-rouge">do...while</code> 循环至少会被执行依次，而 <code class="highlighter-rouge">for</code> 和 <code class="highlighter-rouge">while</code> 循环则可能一次都不执行。</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var i = 0；
+do {
+   i = i + 1; 
+} while (n &lt; 42);```
+console.log(n);
+</code></pre></div></div>
+
+<h2 id="map--set">Map &amp; Set</h2>
+
+<p>JavaScript 的对象有个缺陷，对象的键必须为字符串，而现实的使用中整数或其它数据类型作为键也是合理的。由此，ES6 引入了新的数据类型 <code class="highlighter-rouge">Map</code>。</p>
+
+<p><code class="highlighter-rouge">Map</code> 是一组键值对（key-value）的结构，对查找来说效率很高。</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>`Map`: `var x = new Map();`  // 新建 
+x.set('key',value);  // 添加
+x.has('key'); // 查询是否存在
+x.get()  // 获取值
+x.delete() // 删除 key
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var m = new Map([[1, 'x'], [2, 'y'], [3, 'z']]);
+for (var x of m) { // 遍历Map
+    alert(x[0] + '=' + x[1]);
+}
+</code></pre></div></div>
+
+<p>一个 key 只能对应一个值，设定新值会覆盖掉原值。</p>
+
+<p>Set</p>
+
+<p><code class="highlighter-rouge">Set</code> 与 <code class="highlighter-rouge">Map</code> 类似，是一组 key 的集合，但不存储 Value。此外，由于 Key 不能重复，<code class="highlighter-rouge">Set</code> 里没重复的 key。</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var x = new Set(); // 空 Set
+x.add(); // 新增 key
+x.delete(); // 删除
+</code></pre></div></div>
+
+<h3 id="iterable">iterable</h3>
+
+<p>ES6 新引入的 <code class="highlighter-rouge">Map</code> 和 <code class="highlighter-rouge">Set</code> 无法像 <code class="highlighter-rouge">Array</code> 一样通过下标循环来循环。为统一集合类型，引入了 <code class="highlighter-rouge">iterable</code> 类型，通用于 <code class="highlighter-rouge">Array</code>、<code class="highlighter-rouge">Map</code> 和 <code class="highlighter-rouge">Set</code>。具备此类型的集合可通过同样是新引入的 <code class="highlighter-rouge">for … of</code> 循环来遍历。</p>
+
+<p><code class="highlighter-rouge">for … of</code><code class="highlighter-rouge"> 与 </code>for … in` 循环的区别。</p>
+
+<p><code class="highlighter-rouge">for … in</code> 遍历的是对象属性名称，<code class="highlighter-rouge">Array</code> 数组也被视作对象，它的每个索引被视为一个个属性。在操作时，为 <code class="highlighter-rouge">Array</code> 对象添加额外属性后，使用 <code class="highlighter-rouge">for...in</code> 循环会带来一个问题，循环会把 <code class="highlighter-rouge">name</code> 包括在内，但 <code class="highlighter-rouge">Array</code> 的 <code class="highlighter-rouge">length</code> 属性却不会包括。<code class="highlighter-rouge">for...of</code> 循环的引入修复了这些问题。它只循环集合本身的元素。</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var a = ['A', 'B', 'C'];
+a.name = 'Hello';
+for (var x of a) {
+   console.log(x); 
+}
+</code></pre></div></div>
+
+<ul>
+  <li>Array</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var a = ['A', 'B', 'C'];
+a.forEach(function (element, index, array) {
+    // element: 指向当前元素的值
+    // index: 指向当前索引
+    // array: 指向Array对象本身
+    alert(element);
+});
+</code></pre></div></div>
+
+<ul>
+  <li>Set</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var s = new Set(['A', 'B', 'C']);
+s.forEach(function (element, sameElement, set) {
+    alert(element);
+});
+</code></pre></div></div>
+
+<ul>
+  <li>Map</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var m = new Map([['Microsoft', 4200],['Facebook', 3200],['Snap', 240],['Twitter', 134]]);
+m.forEach(function (value, key, map) {console.log(value);});
+</code></pre></div></div>
+
+
+                <hr>
+
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>进行许可。转载，请注明原作者 Azeril 及本文源链接。
+
+                <hr>
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/blog/Start-With-My-First-VPS.html" data-toggle="tooltip" data-placement="top" title="VPS 初相遇">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/blog/Two-Presents-of-Today.html" data-toggle="tooltip" data-placement="top" title="两份来自今日的礼物">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+                <!-- Utteranc -->
+
+                <script src="https://utteranc.es/client.js"
+                        repo="Azeril/azeril.github.io"
+                        issue-term="pathname"
+                        theme="github-light"
+                        crossorigin="anonymous"
+                        async>
+                </script>
+            </div>
+        </div>
+     </div>
+  </article>
+</script>
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+  
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <!-- kill the Facebook and Weibo -->
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a href="https://twitter.com/Azeril_Lapland">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <a href="https://github.com/Azeril">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <!--
+                    
+                    <li>
+                        <a href="http://www.douban.com/people/Azeril">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-douban fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    -->
+
+                    <!--
+                    
+                    <li>
+                        <a href="https://www.facebook.com/Azeril_Lapland">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    -->
+
+                    
+                    <li>
+                        <a target="_blank" href="https://www.zhihu.com/people/Azeril">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa  fa-stack-1x fa-inverse">知</i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+                    <!--
+                    
+                    <li>
+                        <a target="_blank" href="http://weibo.com/Azeril">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    -->
+
+                </ul>
+                <p class="copyright text-muted">
+                &copy; 2011~2019 Azeril ♪ Powered by Jekyll.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+
+<!-- Highlight.js -->
+<script>
+    async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js",function(){
+        hljs.initHighlightingOnLoad();
+    })
+</script>
+<link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+</body>
+
+</html>
