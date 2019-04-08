@@ -7,7 +7,7 @@ description: "引入土豆，尝试一下新的吃法"
 image:
   feature: windows.jpg
   credit: Azeril
-  creditlink: http://azeril.com
+  creditlink: azeril.com
 ---
 
 从南京旅行回来之后的这两周，重新尝试不算严格的轻断食，体重开始稳步降低，这周末的最新数值是 67kg。当前的理想状态是 62kg。

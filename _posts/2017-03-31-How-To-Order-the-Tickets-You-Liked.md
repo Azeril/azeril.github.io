@@ -7,7 +7,7 @@ tags: [Life, ]
 image:
   feature: windows.jpg
   credit: Azeril
-  creditlink: http://azeril.com
+  creditlink: azeril.com
 ---
 
 电影节的美好之处在于，在持续小半月的影展中，会有很多部影片放映。包括中国或海外的新片，以及更值得期待的那些少见的影片，包括胶片修复放映的老片，不会在日常时间登陆院线的大师经典，或因为种种原因不可能在院线放映的作品。

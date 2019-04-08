@@ -7,7 +7,7 @@ description: "Learn note of Introduction To JavaScript"
 image:
   feature: windows.jpg
   credit: Azeril
-  creditlink: http://azeril.com
+  creditlink: azeril.com
 ---
 
 

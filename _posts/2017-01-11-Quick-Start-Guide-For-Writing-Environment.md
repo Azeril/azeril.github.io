@@ -7,7 +7,7 @@ description: "如何快速创建博客模板文档开始写作，以及在博客
 image:
   feature: windows.jpg
   credit: Azeril
-  creditlink: http://azeril.com
+  creditlink: azeril.com
 ---
 
 
@@ -131,7 +131,7 @@ alias nuts="git add . ; git commit -m 'update the files' ; git push"
 最终，在设定完成后，使用短命令创建博客文档和推送博客更新的呈现效果：
 
 
-![QuickStartGuideForBlogWriting](http://dreamofbook.qiniudn.com/VideoQuickStartGuideForBlogWriting.gif)
+![QuickStartGuideForBlogWriting](img/swirl/VideoQuickStartGuideForBlogWriting.gif)
 
 ## 注释
 

@@ -7,7 +7,7 @@ description:
 image:
   feature: windows.jpg
   credit: Azeril
-  creditlink: http://azeril.com
+  creditlink: azeril.com
 ---
 
 
@@ -34,7 +34,7 @@ VPS 服务的网络服务商不少，按照自己的喜好和需求来即可。
 
 这些操作其实没啥好说的，BandwagonHost 提供了很简明的操作面板，根据菜单的选项操作就能很容易完成系统的安装或切换。
 
-![BandwagonHostKiwiVMUI](http://dreamofbook.qiniudn.com/BandwagonHostKiwiVMUIInstallOS.png)
+![BandwagonHostKiwiVMUI](/img/swirl/BandwagonHostKiwiVMUIInstallOS.png)
 
 需要注意的一点是，一键安装 Shadowsokcs 服务，只支持 CentOS 6 的版本（默认安装的服务器操作系统也是这个），安装其它的版本或其它 Linux OS 一键安装服务会失效。至于选择什么操作系统，这事见仁见智。以前在个人电脑上安装的虚拟机或实体 Linux 系统一直都是 Ubuntu。但这次为了偷懒，直接可以不折腾就部署好 Shadowsocks 服务，就直接使用了以前从来没接触过的 CentOS，操作起来也还不赖。当然，没有图形界面，这个没办法，甚至都不好意思吐槽，毕竟各种操作，我想不出比命令行更方便的途径了...
 

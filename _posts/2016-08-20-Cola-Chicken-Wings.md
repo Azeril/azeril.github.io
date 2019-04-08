@@ -10,7 +10,7 @@ description:
 
 做一份自己喜欢的可乐鸡翅。
 
-![](http://openmindclub.qiniudn.com/Azeril/MarkdownActionPicAddTemplateColaChickenWings.png)
+![](img/swirl/MarkdownActionPicAddTemplateColaChickenWings.jpg)
 
 ## 用料  
 

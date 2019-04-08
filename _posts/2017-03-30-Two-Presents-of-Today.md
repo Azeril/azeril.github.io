@@ -7,7 +7,7 @@ description: "今天收到两份礼物，一份是自己送给自己的，一份
 image:
   feature: windows.jpg
   credit: Azeril
-  creditlink: http://azeril.com
+  creditlink: azeril.com
 ---
 
 今天收到两份礼物，一份是自己送给自己的，一份是朋友送给自己的。
@@ -26,19 +26,19 @@ image:
 
 希望以后能用这台小黑，拍更多好相片啦。嗯，按两万下快门~
 
-![SonyCameraA600](http://dreamofbook.qiniudn.com/SonyCameraA600P1.jpg)
-![SonyCameraA600](http://dreamofbook.qiniudn.com/SonyCameraA600P2.jpg)
+![SonyCameraA600](/img/swirl/SonyCameraA600P1.jpg)
+![SonyCameraA600](/img/swirl/SonyCameraA600P2.jpg)
 
 
 此外，今天早晨的时候还收到了来自丽芳寄来的豆瓣电影日历，黑色外壳黑色封面的豆瓣日历，和 A6000 颜色相得益彰。
 
-![DoubanFilmsCal](http://dreamofbook.qiniudn.com/DoubanFilmsCalP2.jpg)
+![DoubanFilmsCal](/img/swirl/DoubanFilmsCalP2.jpg)
 
 在这一年的四分之一将近的日子，收到那册崭新的，一页未揭的日历还真是百感交集啊。其实上周末的时候也想到这事来着，不过那会思虑的是她好像上周一周得没动静的样子，是不是忘了我先前和她说的。本来日历在年前就能拿到手的，不过先前几月，一直没碰面，后边开始工作了也各自忙活，我也是不急切，只是早先的时候让她拍了几张相片我整理了 po 了一下。不过么，毕竟是日历，真要不用也不成，毕竟日子是拿来过的，日历也总得用起来。
 
 翻到日历上的今天，正好还是梵高的生日。真巧。
 
-![DoubanFilmsCal](http://dreamofbook.qiniudn.com/DoubanFilmsCalP1.jpg)
+![DoubanFilmsCal](/img/swirl/DoubanFilmsCalP1.jpg)
 
 之前的日子，留点空闲的时间，一页页揭吧。先把当下过下去。
 

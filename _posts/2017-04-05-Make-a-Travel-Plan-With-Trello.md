@@ -7,7 +7,7 @@ description: "无论是妙用歪用，运用 Trello 作旅行规划或攻略，�
 image:
   feature: windows.jpg
   credit: Azeril
-  creditlink: http://azeril.com
+  creditlink: azeril.com
 ---
 
 
@@ -33,7 +33,7 @@ image:
 
 略为枯燥的操作过程，信息不断被充实在列表与地图之上，一个城市的清晰样貌，以及依附其上的那些带着这个城市风格的风景与美食所在，也得以在视觉上构建出来。
 
-![GaodeMapNanjing](http://dreamofbook.qiniudn.com/GaodeMapNanjingTravel.PNG)
+![GaodeMapNanjing](/img/swirl/GaodeMapNanjingTravel.jpg)
 
 就归档来说，无非就是景点、美食的二分法。当然，为了查看方便，再增加一级，也就是地区区域的维度，将各个主要区域下的地方分开罗列。整体的概念有了，到时逛一片，就可以以点带面，顺带扫荡一片。实际旅行过程中，也是这样玩的，是便利不少。
 
@@ -43,7 +43,7 @@ image:
 
 在 Trello 上我所新建的命名「Ithaka」的项目中，建立 4 个列表，一个是以区域为主题的「FoodMap」（吃货本性暴露），存放的卡片是以区域或核心景点为标题的卡片集，每张卡片下分列这个区域的景点与美食；第二个是自己日程表「Route」，以每一天的时间卡作为分割；第三个列表是主要的景点列表「Attractions」，一个景点一个锚子也就是一张 Trello 卡片；最后一个列表命名为小黑板，创建旅行相关的注意事项 Tips、Checklist 之类。
 
-![](http://dreamofbook.qiniudn.com/TravelWithTrelloWebBoardAndCardsReview.png)
+![](/img/swirl/TravelWithTrelloWebBoardAndCardsReview.png)
 
 
 做具体的日程规划或调整时，就通过拖拽的方式，将相应的景点卡片移入「Route」列表对应的日期下面。而后，依照地图上的位置分布，结合公交线路（主要是地铁）规划好大致的路线，以游玩和探访的时间先后顺序排序。
@@ -52,7 +52,7 @@ image:
 
 比如，逛到南京老门东那一片区域时，点击「FoodMap」一栏的相关条目，就可以大致了解这篇区域的可探索目标（当然，使用地图同理）：
 
-![](http://dreamofbook.qiniudn.com/TrelloIthakaTravelBoardStatusExample.jpg)
+![](/img/swirl/TrelloIthakaTravelBoardStatusExample.jpg)
 
 Trello 的看板在旅行时能给予自己的是灵活的安排和全面的考虑。在列表缩小的情况下，两列卡片集，当前的列表与相关的待探索条目可以同时展现，让人在纵览时能更有全局观，也便于做合理调整。
 

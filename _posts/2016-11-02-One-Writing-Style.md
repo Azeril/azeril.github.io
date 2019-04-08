@@ -39,5 +39,5 @@ Writing Style
  
 Created 161102
 
-Via http://wangshuo.blog.caixin.com/archives/821
-Origin http://www.economist.com/research/styleGuide/
+Via https://wangshuo.blog.caixin.com/archives/821
+Origin https://www.economist.com/research/styleGuide/
